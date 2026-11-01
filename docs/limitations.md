@@ -1,3 +1,5 @@
-# Scope and limitations
+# Limits and interpretation
 
-This is generated data with deliberately simulated loyalty patterns and named defect injections. Neither the dollar totals nor segment differences describe a real team. Static segmentation rules were fixed before reading follow-up outcomes. There is no causal marketing uplift, real CRM activation, cloud benchmark or external predictive validation. Refund attribution and single-event-order grain simplify a real ticketing accounting model. Local materialization reduces repeated aggregation work but requires refreshes and additional storage.
+This official-source version supersedes the former generated-data demonstration. Read the protocol, source lock and metric dictionary with the headline results.
+
+Official reported attendance does not establish ticket transactions, paid revenue, unique fans, capacity usage or causal demand. The ordinary school list and summary are not always the same cohort: the women's 2026 difference is explained by reclassifying rows. A conflicting women's 2025 all-games historical value remains flagged and is excluded from the forecast. Current source PDFs can be revised; checksum changes require source review. The forecast has only four annual origins, substantial structural breaks, no archived-vintage data, and no external operational validation. Baseline wins are retained. Source counts/averages may round differently; no silent imputation of 2021 or source inconsistencies.

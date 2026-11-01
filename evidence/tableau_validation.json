@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "workbook_count": 1,
+  "worksheet_count": 4,
+  "embedded_csv_count": 4,
+  "archive_and_csv_integrity": "passed",
+  "native_rendering": "Separate manual QA required; this check does not assert native rendering."
+}

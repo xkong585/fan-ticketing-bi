@@ -1,0 +1,4 @@
+model,origins,mae_attendees,median_ape_percent
+Last observed year,4,145.25,3.2323153138156826
+Trailing 3 observed seasons,4,97.75000000000023,2.1929147788172902
+Ridge AR(1),4,124.38693380024415,2.844558094382307

@@ -1,22 +1,30 @@
 [
   {
-    "check": "monthly_SQL_vs_pandas_exact",
+    "check": "official_source_checksums",
     "passed": true
   },
   {
-    "check": "all_fans_in_RFM",
+    "check": "school_keys_unique",
     "passed": true
   },
   {
-    "check": "segment_count_conservation",
+    "check": "main_school_count_equals_source",
     "passed": true
   },
   {
-    "check": "net_money_conservation",
+    "check": "summary_scope_difference_fully_explained",
     "passed": true
   },
   {
-    "check": "capacity_never_exceeded",
+    "check": "sql_vs_independent_pandas_exact",
+    "passed": true
+  },
+  {
+    "check": "missing_2021_not_zero_filled",
+    "passed": true
+  },
+  {
+    "check": "forecast_train_year_strictly_before_test",
     "passed": true
   }
 ]

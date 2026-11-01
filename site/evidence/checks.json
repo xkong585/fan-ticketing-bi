@@ -1,0 +1,30 @@
+[
+  {
+    "check": "official_source_checksums",
+    "passed": true
+  },
+  {
+    "check": "school_keys_unique",
+    "passed": true
+  },
+  {
+    "check": "main_school_count_equals_source",
+    "passed": true
+  },
+  {
+    "check": "summary_scope_difference_fully_explained",
+    "passed": true
+  },
+  {
+    "check": "sql_vs_independent_pandas_exact",
+    "passed": true
+  },
+  {
+    "check": "missing_2021_not_zero_filled",
+    "passed": true
+  },
+  {
+    "check": "forecast_train_year_strictly_before_test",
+    "passed": true
+  }
+]

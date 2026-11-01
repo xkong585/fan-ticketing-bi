@@ -1,13 +1,10 @@
 # Metric dictionary
 
-| Metric | Grain and definition |
-|---|---|
-| Net revenue | Sum gross paid minus refund cents; original purchase month attribution |
-| Net tickets | Purchased quantity minus refunded quantity |
-| Scan rate | Sum attended tickets / sum net tickets, not average of subgroup rates |
-| Average order value | Net revenue / accepted order count; includes fully refunded orders |
-| RFM frequency | Distinct positive-net-ticket orders before 2026-01-01 |
-| Recency | Days since last positive purchase at fixed cutoff; no-history is missing, not zero |
-| Segment validation | Fan purchased positive net tickets during Jan-Mar 2026; one row per fan |
-| Brand segments | Fan/brand grain; the same person may appear in two brand universes |
-| Cohort retention | First observed positive purchase cohort; active fans at month k / original cohort size; future unobserved months omitted |
+- **Team record:** school / sex / season-end / cohort. A university may appear in both sex categories.
+- **Ordinary DI home attendance:** sum of factual school-list attendance after separating reclassifying rows. Counts attendances, not unique people or paid purchases.
+- **Home games:** sum of recorded home games for the same selected school rows.
+- **Computed average:** attendance / home games. Use ratio of totals for an aggregate selection, not an average of school averages.
+- **Reported average:** the NCAA's printed rounded/truncated value, retained separately.
+- **Historical DI all-games attendance:** as printed on the historical table, includes home / neutral / tournament; never substitute for home attendance. 2021 is missing, not zero.
+- **Forecast MAE:** mean absolute difference between forecast and printed men's DI all-games average over four annual origins, 2023–26. Training years precede each origin.
+- **SQL timing:** 21 warm interleaved local runs, actual source rows, same results; report mart construction separately and no fixed performance guarantee.

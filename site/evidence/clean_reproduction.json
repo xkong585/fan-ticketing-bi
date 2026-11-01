@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "mode": "Fresh generated outputs with checksum-verified official source cache; no generated analysis/evidence/site/tableau copied. CI separately tests empty raw-cache downloads.",
+  "outputs": [
+    {
+      "file": "evidence/summary.json",
+      "identical": true,
+      "sha256": "026d9a8c12a842773855c81f1237c53b806eb0caf414fac0c906926ae8cc62e6"
+    },
+    {
+      "file": "evidence/checks.json",
+      "identical": true,
+      "sha256": "a7307fb74d492fdebe73494d5a5110d831491cce8797d14702c5c6f64ea55670"
+    },
+    {
+      "file": "evidence/division_history.csv",
+      "identical": true,
+      "sha256": "fe4246ee49a11b2e0ef6cbf8d9f31659beff5e7086bef90b5a194fd11c014114"
+    },
+    {
+      "file": "evidence/scope_reconciliation.csv",
+      "identical": true,
+      "sha256": "c6ce58c874dff5be95ef17ec0a25cf85fa926d4a79508b4a5ffcf71bb529195b"
+    },
+    {
+      "file": "evidence/school_attendance.csv",
+      "identical": true,
+      "sha256": "1a8f58dfd5af799a4da30b84703c59f7e7771b297af10ad54f2dc51a83ca3319"
+    },
+    {
+      "file": "evidence/forecast_predictions.csv",
+      "identical": true,
+      "sha256": "c0ab63335078fdfeb6ccf57b00b2d86c85fc104bc2f9b7d571c2369972cbc72c"
+    },
+    {
+      "file": "evidence/concentration.csv",
+      "identical": true,
+      "sha256": "af0b49ecf7af963341e4208fa9cfaadbc8b5b2d0792d4b4ee77236d939250221"
+    },
+    {
+      "file": "evidence/home_kpis.csv",
+      "identical": true,
+      "sha256": "4f009b9a95a6a808a26cec43c5dda7efdd5fa48f16e8b00a1b9da2a715976060"
+    },
+    {
+      "file": "evidence/forecast_metrics.csv",
+      "identical": true,
+      "sha256": "c2adf1bc83b0be20f025ca1daf2f54da36f175b62b4c0e4a4d57a9af733265bd"
+    }
+  ],
+  "excluded": "Timing samples, run logs, test XML and package timestamps vary by run/host."
+}

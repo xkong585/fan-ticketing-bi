@@ -1,12 +1,30 @@
 {
-  "report_browser": "Chrome",
-  "tableau_package": "ZIP integrity, four worksheets/dashboard viewpoints and embedded CSV equality checked",
-  "synthetic": true,
-  "browser_filtered_check": {
-    "brand": "Metro Hoops",
-    "month": "2026-01",
-    "displayed_orders": 5234,
-    "displayed_net_tickets": 12556,
-    "displayed_net_revenue_rounded_usd": 903913
-  }
+  "browser": "Chrome desktop; 390px mobile layout checked",
+  "status": "passed",
+  "desktop_screenshot": "assets/dashboard-preview.png",
+  "tableau_native_rendering": {
+    "status": "not_verified",
+    "reason": "Tableau Desktop becomes unresponsive after opening the packaged workbook. ZIP/XML/datasource integrity checks pass; do not claim native rendering was verified."
+  },
+  "checks": [
+    {
+      "action": "Filter Women + UCLA",
+      "expected": {
+        "records": 1,
+        "attendance": 87848,
+        "games": 16,
+        "average_rounded": 5491
+      },
+      "passed": true
+    },
+    {
+      "action": "Reset filters",
+      "expected": {
+        "records": 720,
+        "attendance": 33001062,
+        "games": 10917
+      },
+      "passed": true
+    }
+  ]
 }

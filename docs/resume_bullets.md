@@ -1,6 +1,6 @@
 # Evidence-backed resume wording
 
-Always retain the word **synthetic** or **simulated** when reporting this project.
+- Built an official-source NCAA attendance pipeline covering 720 Division I team records and 10,917 home games; reconciled SQL/pandas aggregates and traced a 22,766-attendance source-summary discrepancy to reclassifying teams.
+- Delivered an interactive school explorer, Tableau package and reproducible model benchmark; a trailing three-season mean achieved MAE 97.75 across four temporal test origins, versus 145.25 for persistence and 124.39 for Ridge.
 
-- Built a synthetic ticketing BI warehouse covering 20,000 fans, 120 events and 119,998 accepted orders; reconciled integer-cent financial KPIs independently across SQL and pandas and delivered Tableau and filterable reporting.
-- Created five as-of audience segments with next-90-day validation, preserved 6,611 no-history fans, and benchmarked result-equivalent materialized reporting queries with construction cost and query plans.
+Do not call attendance ticket sales, unique fans or revenue. The four-origin benchmark is exploratory. No real campaign outcome or CRM activation was measured.

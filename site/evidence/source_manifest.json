@@ -1,0 +1,20 @@
+[
+  {
+    "file": "ncaa_mens_attendance.pdf",
+    "url": "https://s3.amazonaws.com/fs.ncaa.org/Docs/stats/m_basketball_RB/Attend.pdf",
+    "sha256": "24c40ed4ab4ca6abd42af3a53b244cb5ae682dea7f27f12b7b96f2910f3e4cab",
+    "bytes": 888336,
+    "retrieved_date": "2026-11-01",
+    "sha256_verified": true,
+    "observed_bytes": 888336
+  },
+  {
+    "file": "ncaa_womens_attendance.pdf",
+    "url": "https://s3.amazonaws.com/fs.ncaa.org/Docs/stats/w_basketball_RB/Attend.pdf",
+    "sha256": "5abb0e05a052012de22c11904131cb596e25b0af632f2866962faa2473e554df",
+    "bytes": 1104926,
+    "retrieved_date": "2026-11-01",
+    "sha256_verified": true,
+    "observed_bytes": 1104926
+  }
+]

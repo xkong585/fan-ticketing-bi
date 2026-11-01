@@ -1,7 +1,12 @@
-name: Reproduce analytical evidence
+name: Reproduce official-source evidence
 on: [push, pull_request, workflow_dispatch]
 permissions:
   contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: official-research-${{ github.ref }}
+  cancel-in-progress: false
 jobs:
   reproduce:
     runs-on: ubuntu-latest
@@ -15,8 +20,23 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: aggregate-evidence
+          name: official-source-evidence
           path: |
             reports/
             evidence/
+            assets/
             tableau/
+      - uses: actions/upload-pages-artifact@v3
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        with:
+          path: site/
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: reproduce
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment

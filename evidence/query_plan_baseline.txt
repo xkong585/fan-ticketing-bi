@@ -3,10 +3,10 @@
 ││    Query Profiling Information    ││
 │└───────────────────────────────────┘│
 └─────────────────────────────────────┘
-EXPLAIN ANALYZE SELECT month,brand,SUM(orders)::BIGINT orders,SUM(net_revenue_cents)::BIGINT net_revenue_cents FROM mart_monthly  GROUP BY 1,2 ORDER BY 1,2
+EXPLAIN ANALYZE SELECT sex, SUM(home_games)::BIGINT games, SUM(attendance)::BIGINT attendance FROM school_attendance WHERE cohort='Division I' GROUP BY 1 ORDER BY 1
 ┌────────────────────────────────────────────────┐
 │┌──────────────────────────────────────────────┐│
-││              Total Time: 0.0019s             ││
+││              Total Time: 0.0014s             ││
 │└──────────────────────────────────────────────┘│
 └────────────────────────────────────────────────┘
 ┌───────────────────────────┐
@@ -23,21 +23,18 @@ EXPLAIN ANALYZE SELECT month,brand,SUM(orders)::BIGINT orders,SUM(net_revenue_ce
 │    ────────────────────   │
 │__internal_decompress_strin│
 │           g(#0)           │
-│__internal_decompress_strin│
-│           g(#1)           │
+│             #1            │
 │             #2            │
-│             #3            │
 │                           │
-│          30 rows          │
+│           2 rows          │
 │          (0.00s)          │
 └─────────────┬─────────────┘
 ┌─────────────┴─────────────┐
 │          ORDER_BY         │
 │    ────────────────────   │
-│         month ASC         │
-│         brand ASC         │
+│          sex ASC          │
 │                           │
-│          30 rows          │
+│           2 rows          │
 │          (0.00s)          │
 └─────────────┬─────────────┘
 ┌─────────────┴─────────────┐
@@ -45,23 +42,20 @@ EXPLAIN ANALYZE SELECT month,brand,SUM(orders)::BIGINT orders,SUM(net_revenue_ce
 │    ────────────────────   │
 │__internal_compress_string_│
 │        ubigint(#0)        │
-│__internal_compress_string_│
-│        uhugeint(#1)       │
+│             #1            │
 │             #2            │
-│             #3            │
 │                           │
-│          30 rows          │
+│           2 rows          │
 │          (0.00s)          │
 └─────────────┬─────────────┘
 ┌─────────────┴─────────────┐
 │         PROJECTION        │
 │    ────────────────────   │
 │             0             │
-│             1             │
-│           orders          │
-│     net_revenue_cents     │
+│           games           │
+│         attendance        │
 │                           │
-│          30 rows          │
+│           2 rows          │
 │          (0.00s)          │
 └─────────────┬─────────────┘
 ┌─────────────┴─────────────┐
@@ -69,37 +63,32 @@ EXPLAIN ANALYZE SELECT month,brand,SUM(orders)::BIGINT orders,SUM(net_revenue_ce
 │    ────────────────────   │
 │__internal_decompress_strin│
 │           g(#0)           │
-│__internal_decompress_strin│
-│           g(#1)           │
+│             #1            │
 │             #2            │
-│             #3            │
 │                           │
-│          30 rows          │
+│           2 rows          │
 │          (0.00s)          │
 └─────────────┬─────────────┘
 ┌─────────────┴─────────────┐
 │       HASH_GROUP_BY       │
 │    ────────────────────   │
-│          Groups:          │
-│             #0            │
-│             #1            │
+│         Groups: #0        │
 │                           │
 │        Aggregates:        │
+│    sum_no_overflow(#1)    │
 │    sum_no_overflow(#2)    │
-│    sum_no_overflow(#3)    │
 │                           │
-│          30 rows          │
+│           2 rows          │
 │          (0.00s)          │
 └─────────────┬─────────────┘
 ┌─────────────┴─────────────┐
 │         PROJECTION        │
 │    ────────────────────   │
-│           month           │
-│           brand           │
-│           orders          │
-│     net_revenue_cents     │
+│            sex            │
+│         home_games        │
+│         attendance        │
 │                           │
-│          90 rows          │
+│          720 rows         │
 │          (0.00s)          │
 └─────────────┬─────────────┘
 ┌─────────────┴─────────────┐
@@ -107,26 +96,28 @@ EXPLAIN ANALYZE SELECT month,brand,SUM(orders)::BIGINT orders,SUM(net_revenue_ce
 │    ────────────────────   │
 │__internal_compress_string_│
 │        ubigint(#0)        │
-│__internal_compress_string_│
-│        uhugeint(#1)       │
+│             #1            │
 │             #2            │
-│             #3            │
 │                           │
-│          90 rows          │
+│          720 rows         │
 │          (0.00s)          │
 └─────────────┬─────────────┘
 ┌─────────────┴─────────────┐
 │         TABLE_SCAN        │
 │    ────────────────────   │
-│    Table: mart_monthly    │
+│           Table:          │
+│     school_attendance     │
+│                           │
 │   Type: Sequential Scan   │
 │                           │
 │        Projections:       │
-│           month           │
-│           brand           │
-│           orders          │
-│     net_revenue_cents     │
+│            sex            │
+│         home_games        │
+│         attendance        │
 │                           │
-│          90 rows          │
+│          Filters:         │
+│    cohort='Division I'    │
+│                           │
+│          720 rows         │
 │          (0.00s)          │
 └───────────────────────────┘

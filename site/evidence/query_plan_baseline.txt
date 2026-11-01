@@ -3,10 +3,10 @@
 ││    Query Profiling Information    ││
 │└───────────────────────────────────┘│
 └─────────────────────────────────────┘
-EXPLAIN ANALYZE SELECT strftime(purchase_at,'%Y-%m') AS month,e.brand,COUNT(*)::BIGINT orders,SUM(net_cents)::BIGINT net_revenue_cents FROM fact_order o JOIN dim_event e USING(event_id) WHERE brand='Metro Hoops' GROUP BY 1,2 ORDER BY 1,2
+EXPLAIN ANALYZE SELECT sex, SUM(home_games)::BIGINT games, SUM(attendance)::BIGINT attendance FROM school_attendance WHERE cohort='Division I' GROUP BY 1 ORDER BY 1
 ┌────────────────────────────────────────────────┐
 │┌──────────────────────────────────────────────┐│
-││              Total Time: 0.0034s             ││
+││              Total Time: 0.0014s             ││
 │└──────────────────────────────────────────────┘│
 └────────────────────────────────────────────────┘
 ┌───────────────────────────┐
@@ -21,118 +21,103 @@ EXPLAIN ANALYZE SELECT strftime(purchase_at,'%Y-%m') AS month,e.brand,COUNT(*)::
 ┌─────────────┴─────────────┐
 │         PROJECTION        │
 │    ────────────────────   │
-│             #0            │
 │__internal_decompress_strin│
-│           g(#1)           │
+│           g(#0)           │
+│             #1            │
 │             #2            │
-│             #3            │
 │                           │
-│          15 rows          │
+│           2 rows          │
 │          (0.00s)          │
 └─────────────┬─────────────┘
 ┌─────────────┴─────────────┐
 │          ORDER_BY         │
 │    ────────────────────   │
-│         month ASC         │
-│         brand ASC         │
+│          sex ASC          │
 │                           │
-│          15 rows          │
+│           2 rows          │
 │          (0.00s)          │
 └─────────────┬─────────────┘
 ┌─────────────┴─────────────┐
 │         PROJECTION        │
 │    ────────────────────   │
-│             #0            │
 │__internal_compress_string_│
-│        uhugeint(#1)       │
+│        ubigint(#0)        │
+│             #1            │
 │             #2            │
-│             #3            │
 │                           │
-│          15 rows          │
+│           2 rows          │
 │          (0.00s)          │
 └─────────────┬─────────────┘
 ┌─────────────┴─────────────┐
 │         PROJECTION        │
 │    ────────────────────   │
 │             0             │
-│             1             │
-│           orders          │
-│     net_revenue_cents     │
+│           games           │
+│         attendance        │
 │                           │
-│          15 rows          │
+│           2 rows          │
 │          (0.00s)          │
 └─────────────┬─────────────┘
 ┌─────────────┴─────────────┐
 │         PROJECTION        │
 │    ────────────────────   │
-│             #0            │
 │__internal_decompress_strin│
-│           g(#1)           │
+│           g(#0)           │
+│             #1            │
 │             #2            │
-│             #3            │
 │                           │
-│          15 rows          │
+│           2 rows          │
 │          (0.00s)          │
 └─────────────┬─────────────┘
 ┌─────────────┴─────────────┐
 │       HASH_GROUP_BY       │
 │    ────────────────────   │
-│          Groups:          │
-│             #0            │
-│             #1            │
+│         Groups: #0        │
 │                           │
 │        Aggregates:        │
-│        count_star()       │
-│          sum(#2)          │
+│    sum_no_overflow(#1)    │
+│    sum_no_overflow(#2)    │
 │                           │
-│          15 rows          │
+│           2 rows          │
 │          (0.00s)          │
 └─────────────┬─────────────┘
 ┌─────────────┴─────────────┐
 │         PROJECTION        │
 │    ────────────────────   │
-│           month           │
-│           brand           │
-│         net_cents         │
+│            sex            │
+│         home_games        │
+│         attendance        │
 │                           │
-│        59,936 rows        │
+│          720 rows         │
 │          (0.00s)          │
 └─────────────┬─────────────┘
 ┌─────────────┴─────────────┐
 │         PROJECTION        │
 │    ────────────────────   │
-│             #0            │
-│             #1            │
 │__internal_compress_string_│
-│        uhugeint(#2)       │
+│        ubigint(#0)        │
+│             #1            │
+│             #2            │
 │                           │
-│        59,936 rows        │
+│          720 rows         │
 │          (0.00s)          │
 └─────────────┬─────────────┘
 ┌─────────────┴─────────────┐
-│         HASH_JOIN         │
+│         TABLE_SCAN        │
 │    ────────────────────   │
-│      Join Type: INNER     │
+│           Table:          │
+│     school_attendance     │
 │                           │
-│        Conditions:        ├──────────────┐
-│    event_id = event_id    │              │
-│                           │              │
-│        59,936 rows        │              │
-│          (0.00s)          │              │
-└─────────────┬─────────────┘              │
-┌─────────────┴─────────────┐┌─────────────┴─────────────┐
-│         TABLE_SCAN        ││         TABLE_SCAN        │
-│    ────────────────────   ││    ────────────────────   │
-│     Table: fact_order     ││      Table: dim_event     │
-│   Type: Sequential Scan   ││   Type: Sequential Scan   │
-│                           ││                           │
-│        Projections:       ││        Projections:       │
-│          event_id         ││          event_id         │
-│        purchase_at        ││           brand           │
-│         net_cents         ││                           │
-│                           ││          Filters:         │
-│                           ││    brand='Metro Hoops'    │
-│                           ││                           │
-│        118,963 rows       ││          60 rows          │
-│          (0.00s)          ││          (0.00s)          │
-└───────────────────────────┘└───────────────────────────┘
+│   Type: Sequential Scan   │
+│                           │
+│        Projections:       │
+│            sex            │
+│         home_games        │
+│         attendance        │
+│                           │
+│          Filters:         │
+│    cohort='Division I'    │
+│                           │
+│          720 rows         │
+│          (0.00s)          │
+└───────────────────────────┘

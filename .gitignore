@@ -5,6 +5,7 @@ data/processed/*
 __pycache__/
 .pytest_cache/
 .mplconfig/
+.venv/
 *.duckdb
-*.duckdb.wal
 .DS_Store
+*.twbr

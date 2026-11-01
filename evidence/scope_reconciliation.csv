@@ -1,0 +1,3 @@
+sex,season_end,reported_teams,reported_home_games,reported_home_attendance,reported_average,source_page,source_file,curated_teams,curated_home_games,curated_home_attendance,difference_games,difference_attendance,explained_by_reclassifying,scope_reconciliation_passed
+Men,2026,361,5523,23370282,4231,2,ncaa_mens_attendance.pdf,361,5523,23370282,0,0,False,True
+Women,2026,359,5453,9653546,1770,2,ncaa_womens_attendance.pdf,359,5394,9630780,59,22766,True,True

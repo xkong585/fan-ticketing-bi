@@ -1,0 +1,725 @@
+school,home_games,attendance,reported_average,sex,season_end,cohort,source_file,source_page,source_column,computed_average
+A&M-Corpus Christi,15,20957,1397,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,1397.1333333333334
+Abilene Christian,14,15472,1105,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,1105.142857142857
+Air Force,18,24896,1383,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,1383.111111111111
+Akron,15,32216,2148,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,2147.733333333333
+Alabama,15,199044,13270,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,13269.6
+Alabama A&M,17,39839,2343,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,2343.470588235294
+Alabama St.,9,9987,1110,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,1109.6666666666667
+Alcorn,9,5986,665,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,665.1111111111111
+American,17,18322,1078,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,1077.764705882353
+App State,15,29338,1956,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,1955.8666666666666
+Arizona,17,243051,14297,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,14297.117647058823
+Arizona St.,15,117766,7851,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,7851.066666666667
+Ark.-Pine Bluff,11,19164,1742,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,1742.1818181818182
+Arkansas,18,338334,18796,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,18796.333333333332
+Arkansas St.,15,57981,3865,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,3865.4
+Army West Point,16,20689,1293,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,1293.0625
+Auburn,18,145412,8078,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,8078.444444444444
+Austin Peay,13,28242,2172,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,2172.4615384615386
+BYU,15,271098,18073,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,18073.2
+Ball St.,14,39159,2797,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,2797.0714285714284
+Baylor,17,117510,6912,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,6912.35294117647
+Bellarmine,14,20289,1449,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,1449.2142857142858
+Belmont,15,30199,2013,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,2013.2666666666667
+Bethune-Cookman,11,8980,816,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,816.3636363636364
+Binghamton,15,24096,1606,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,1606.4
+Boise St.,16,159982,9999,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,9998.875
+Boston College,17,70067,4122,Men,2026,Division I,ncaa_mens_attendance.pdf,4,1,4121.588235294118
+Boston U.,15,12999,867,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,866.6
+Bowling Green,17,38943,2291,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,2290.764705882353
+Bradley,17,95289,5605,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,5605.235294117647
+Brown,14,7341,524,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,524.3571428571429
+Bryant,13,6304,485,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,484.9230769230769
+Bucknell,14,15134,1081,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,1081.0
+Buffalo,15,30869,2058,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,2057.9333333333334
+Butler,17,122986,7234,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,7234.470588235294
+CSU Bakersfield,17,7317,430,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,430.4117647058824
+CSUN,15,12083,806,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,805.5333333333333
+Cal Poly,14,26406,1886,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,1886.142857142857
+Cal St. Fullerton,14,10158,726,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,725.5714285714286
+California,22,92613,4210,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,4209.681818181818
+California Baptist,15,51481,3432,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,3432.0666666666666
+Campbell,14,21394,1528,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,1528.142857142857
+Canisius,15,11160,744,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,744.0
+Central Ark.,15,16542,1103,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,1102.8
+Central Conn. St.,14,15761,1126,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,1125.7857142857142
+Central Mich.,13,25700,1977,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,1976.923076923077
+Charleston So.,14,10676,763,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,762.5714285714286
+Charlotte,17,45358,2668,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,2668.1176470588234
+Chattanooga,15,52767,3518,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,3517.8
+Chicago St.,11,6074,552,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,552.1818181818181
+Cincinnati,18,177329,9852,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,9851.611111111111
+Clemson,16,119487,7468,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,7467.9375
+Cleveland St.,15,26296,1753,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,1753.0666666666666
+Coastal Carolina,13,25100,1931,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,1930.7692307692307
+Col. of Charleston,15,74167,4944,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,4944.466666666666
+Colgate,14,9836,703,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,702.5714285714286
+Colorado,18,111725,6207,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,6206.944444444444
+Colorado St.,18,97056,5392,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,5392.0
+Columbia,14,17415,1244,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,1243.9285714285713
+Coppin St.,9,8638,960,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,959.7777777777778
+Cornell,11,13667,1242,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,1242.4545454545455
+Creighton,16,266176,16636,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,16636.0
+Dartmouth,13,12210,939,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,939.2307692307693
+Davidson,18,49931,2774,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,2773.9444444444443
+Dayton,18,238363,13242,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,13242.388888888889
+DePaul,18,82604,4589,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,4589.111111111111
+Delaware,15,28345,1890,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,1889.6666666666667
+Delaware St.,12,4699,392,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,391.5833333333333
+Denver,14,14275,1020,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,1019.6428571428571
+Detroit Mercy,14,20678,1477,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,1477.0
+Drake,17,58299,3429,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,3429.3529411764707
+Drexel,16,18759,1172,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,1172.4375
+Duke,15,139710,9314,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,9314.0
+Duquesne,18,40673,2260,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,2259.6111111111113
+ETSU,17,54787,3223,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,3222.764705882353
+East Carolina,17,57204,3365,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,3364.9411764705883
+East Texas A&M,14,7733,552,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,552.3571428571429
+Eastern Ill.,15,16903,1127,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,1126.8666666666666
+Eastern Ky.,15,21510,1434,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,1434.0
+Eastern Mich.,14,28817,2058,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,2058.3571428571427
+Eastern Wash.,12,20273,1689,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,1689.4166666666667
+Elon,16,24167,1510,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,1510.4375
+Evansville,15,61334,4089,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,4088.9333333333334
+FDU,14,6566,469,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,469.0
+FGCU,17,29636,1743,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,1743.2941176470588
+FIU,18,11759,653,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,653.2777777777778
+Fairfield,16,32262,2016,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,2016.375
+Fla. Atlantic,15,47415,3161,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,3161.0
+Florida,15,157878,10525,Men,2026,Division I,ncaa_mens_attendance.pdf,4,2,10525.2
+Florida A&M,12,13898,1158,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1158.1666666666667
+Florida St.,17,97154,5715,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,5714.941176470588
+Fordham,18,22622,1257,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1256.7777777777778
+Fresno St.,18,83514,4640,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,4639.666666666667
+Furman,16,33997,2125,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,2124.8125
+Ga. Southern,14,26468,1891,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1890.5714285714287
+Gardner-Webb,13,7937,611,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,610.5384615384615
+George Mason,20,81110,4056,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,4055.5
+George Washington,16,36345,2272,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,2271.5625
+Georgetown,17,99654,5862,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,5862.0
+Georgia,18,158782,8821,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,8821.222222222223
+Georgia St.,14,26971,1927,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1926.5
+Georgia Tech,19,102780,5409,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,5409.473684210527
+Gonzaga,15,95081,6339,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,6338.733333333334
+Grambling,12,19275,1606,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1606.25
+Grand Canyon,17,120629,7096,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,7095.823529411765
+Green Bay,14,28772,2055,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,2055.1428571428573
+Hampton,12,17105,1425,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1425.4166666666667
+Harvard,12,14988,1249,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1249.0
+Hawaii,19,95851,5045,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,5044.789473684211
+High Point,18,71029,3946,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,3946.0555555555557
+Hofstra,12,23853,1988,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1987.75
+Holy Cross,14,16836,1203,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1202.5714285714287
+Houston,16,113412,7088,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,7088.25
+Houston Christian,14,9900,707,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,707.1428571428571
+Howard,15,21160,1411,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1410.6666666666667
+IU Indy,14,14827,1059,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1059.0714285714287
+Idaho,13,26274,2021,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,2021.076923076923
+Idaho St.,14,18113,1294,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1293.7857142857142
+Illinois,17,253630,14919,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,14919.411764705883
+Illinois St.,16,71817,4489,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,4488.5625
+Indiana,18,282193,15677,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,15677.388888888889
+Indiana St.,15,68533,4569,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,4568.866666666667
+Iona,14,27010,1929,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1929.2857142857142
+Iowa,17,191759,11280,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,11279.941176470587
+Iowa St.,17,238866,14051,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,14050.941176470587
+Jackson St.,10,10688,1069,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1068.8
+Jacksonville,12,8511,709,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,709.25
+Jacksonville St.,17,22017,1295,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1295.1176470588234
+James Madison,15,51185,3412,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,3412.3333333333335
+Kansas,16,244907,15307,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,15306.6875
+Kansas City,14,9827,702,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,701.9285714285714
+Kansas St.,18,140891,7827,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,7827.277777777777
+Kennesaw St.,16,28166,1760,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1760.375
+Kent St.,17,42471,2498,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,2498.294117647059
+Kentucky,18,355165,19731,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,19731.38888888889
+LIU,15,8416,561,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,561.0666666666667
+LMU (CA),18,16912,940,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,939.5555555555555
+LSU,17,120982,7117,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,7116.588235294118
+La Salle,13,20301,1562,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1561.6153846153845
+Lafayette,16,19146,1197,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1196.625
+Lamar University,15,31377,2092,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,2091.8
+Lehigh,17,18233,1073,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1072.5294117647059
+Liberty,16,53825,3364,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,3364.0625
+Lindenwood,14,13934,995,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,995.2857142857143
+Lipscomb,14,16617,1187,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1186.9285714285713
+Little Rock,13,19978,1537,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1536.7692307692307
+Long Beach St.,16,22698,1419,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1418.625
+Longwood,15,29679,1979,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,1978.6
+Louisiana,15,38880,2592,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,2592.0
+Louisiana Tech,17,35669,2098,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,2098.176470588235
+Louisville,17,261727,15396,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,15395.70588235294
+Loyola Chicago,16,42048,2628,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,2628.0
+Loyola Maryland,14,11029,788,Men,2026,Division I,ncaa_mens_attendance.pdf,5,1,787.7857142857143
+Maine,12,14134,1178,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,1177.8333333333333
+Manhattan,14,12123,866,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,865.9285714285714
+Marist,15,24391,1626,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,1626.0666666666666
+Marquette,17,246249,14485,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,14485.235294117647
+Marshall,17,67900,3994,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,3994.1176470588234
+Maryland,15,193326,12888,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,12888.4
+Massachusetts,16,50625,3164,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,3164.0625
+McNeese,14,45725,3266,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,3266.0714285714284
+Memphis,16,153722,9608,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,9607.625
+Mercer,15,15193,1013,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,1012.8666666666667
+Merrimack,11,18402,1673,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,1672.909090909091
+Miami (FL),18,95283,5294,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,5293.5
+Miami (OH),16,74954,4685,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,4684.625
+Michigan,15,188180,12545,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,12545.333333333334
+Michigan St.,17,251549,14797,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,14797.0
+Middle Tenn.,15,55235,3682,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,3682.3333333333335
+Milwaukee,14,28518,2037,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,2037.0
+Minnesota,17,147276,8663,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,8663.29411764706
+Mississippi St.,16,121483,7593,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,7592.6875
+Mississippi Val.,11,4464,406,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,405.8181818181818
+Missouri,18,186822,10379,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,10379.0
+Missouri St.,18,35781,1988,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,1987.8333333333333
+Monmouth,14,24152,1725,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,1725.142857142857
+Montana,17,50559,2974,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,2974.0588235294117
+Montana St.,13,41428,3187,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,3186.769230769231
+Morehead St.,13,16804,1293,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,1292.6153846153845
+Morgan St.,15,18881,1259,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,1258.7333333333333
+Mount St. Mary's,13,27196,2092,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,2092.0
+Murray St.,15,78490,5233,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,5232.666666666667
+N.C. A&T,12,23099,1925,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,1924.9166666666667
+N.C. Central,13,18583,1429,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,1429.4615384615386
+NC State,17,277802,16341,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,16341.29411764706
+NIU,13,14674,1129,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,1128.7692307692307
+NJIT,14,8387,599,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,599.0714285714286
+Navy,17,27937,1643,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,1643.3529411764705
+Nebraska,18,264077,14671,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,14670.944444444445
+Nevada,19,154525,8133,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,8132.894736842105
+New Hampshire,13,5391,415,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,414.6923076923077
+New Mexico,20,242658,12133,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,12132.9
+New Mexico St.,15,78394,5226,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,5226.266666666666
+New Orleans,11,7937,722,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,721.5454545454545
+Niagara,13,11203,862,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,861.7692307692307
+Nicholls,12,8054,671,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,671.1666666666666
+Norfolk St.,13,28634,2203,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,2202.6153846153848
+North Ala.,13,30494,2346,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,2345.6923076923076
+North Carolina,18,350988,19499,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,19499.333333333332
+North Dakota,16,28058,1754,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,1753.625
+North Dakota St.,14,27728,1981,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,1980.5714285714287
+North Florida,13,18864,1451,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,1451.076923076923
+North Texas,17,58613,3448,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,3447.823529411765
+Northeastern,12,12952,1079,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,1079.3333333333333
+Northern Ariz.,16,9429,589,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,589.3125
+Northern Colo.,14,21228,1516,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,1516.2857142857142
+Northern Ky.,17,35680,2099,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,2098.823529411765
+Northwestern,16,87256,5454,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,5453.5
+Northwestern St.,14,7646,546,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,546.1428571428571
+Notre Dame,17,90213,5307,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,5306.64705882353
+Oakland,13,29567,2274,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,2274.3846153846152
+Ohio,16,66698,4169,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,4168.625
+Ohio St.,17,191284,11252,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,11252.0
+Oklahoma,16,100820,6301,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,6301.25
+Oklahoma St.,21,122818,5848,Men,2026,Division I,ncaa_mens_attendance.pdf,5,2,5848.476190476191
+Old Dominion,13,67625,5202,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,5201.923076923077
+Ole Miss,16,127672,7980,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,7979.5
+Omaha,14,40212,2872,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,2872.285714285714
+Oral Roberts,15,49405,3294,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,3293.6666666666665
+Oregon,17,102567,6033,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,6033.35294117647
+Oregon St.,17,51409,3024,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,3024.0588235294117
+Pacific,14,20453,1461,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,1460.9285714285713
+Penn,14,26043,1860,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,1860.2142857142858
+Penn St.,17,99069,5828,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,5827.588235294118
+Pepperdine,17,11413,671,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,671.3529411764706
+Pittsburgh,18,103363,5742,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,5742.388888888889
+Portland,18,24066,1337,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,1337.0
+Portland St.,14,15630,1116,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,1116.4285714285713
+Prairie View,13,10279,791,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,790.6923076923077
+Presbyterian,14,6985,499,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,498.92857142857144
+Princeton,12,25387,2116,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,2115.5833333333335
+Providence,16,163340,10209,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,10208.75
+Purdue,17,252892,14876,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,14876.0
+Purdue Fort Wayne,15,24442,1629,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,1629.4666666666667
+Queens (NC),14,7064,505,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,504.57142857142856
+Quinnipiac,15,21359,1424,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,1423.9333333333334
+Radford,17,20574,1210,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,1210.235294117647
+Rhode Island,16,61586,3849,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,3849.125
+Rice,16,20220,1264,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,1263.75
+Richmond,18,85024,4724,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,4723.555555555556
+Rider,13,14184,1091,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,1091.076923076923
+Robert Morris,17,24467,1439,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,1439.235294117647
+Rutgers,17,136000,8000,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,8000.0
+SFA,16,41863,2616,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,2616.4375
+SIUE,15,26569,1771,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,1771.2666666666667
+SMU,18,97441,5413,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,5413.388888888889
+Sacramento St.,14,38605,2758,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,2757.5
+Sacred Heart,13,12248,942,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,942.1538461538462
+Saint Francis,13,8620,663,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,663.0769230769231
+Saint Joseph's,16,34281,2143,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,2142.5625
+Saint Louis,19,131100,6900,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,6900.0
+Saint Mary's (CA),17,56794,3341,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,3340.823529411765
+Saint Peter's,14,8333,595,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,595.2142857142857
+Sam Houston,14,18614,1330,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,1329.5714285714287
+Samford,14,20642,1474,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,1474.4285714285713
+San Diego,17,21774,1281,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,1280.8235294117646
+San Diego St.,16,185066,11567,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,11566.625
+San Francisco,15,29058,1937,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,1937.2
+San Jose St.,16,34288,2143,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,2143.0
+Santa Clara,15,27562,1837,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,1837.4666666666667
+Seattle U,18,31823,1768,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,1767.9444444444443
+Seton Hall,17,119152,7009,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,7008.941176470588
+Siena,13,66935,5149,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,5148.846153846154
+South Alabama,14,29323,2095,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,2094.5
+South Carolina,19,205137,10797,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,10796.684210526315
+South Carolina St.,11,3574,325,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,324.90909090909093
+South Dakota,17,26121,1537,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,1536.5294117647059
+South Dakota St.,13,36507,2808,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,2808.230769230769
+South Fla.,15,69928,4662,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,4661.866666666667
+Southeast Mo. St.,15,31982,2132,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,2132.133333333333
+Southeastern La.,12,5020,418,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,418.3333333333333
+Southern California,16,88605,5538,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,5537.8125
+Southern Ill.,14,55756,3983,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,3982.5714285714284
+Southern Ind.,13,16419,1263,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,1263.0
+Southern Miss.,13,36014,2770,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,2770.3076923076924
+Southern U.,12,51223,4269,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,4268.583333333333
+Southern Utah,13,13268,1021,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,1020.6153846153846
+St. Bonaventure,16,57356,3585,Men,2026,Division I,ncaa_mens_attendance.pdf,6,1,3584.75
+St. John's (NY),17,222658,13098,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,13097.529411764706
+St. Thomas (MN),15,42908,2861,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,2860.5333333333333
+Stanford,18,70177,3899,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,3898.722222222222
+Stetson,14,10337,738,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,738.3571428571429
+Stonehill,13,4215,324,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,324.2307692307692
+Stony Brook,16,28798,1800,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,1799.875
+Syracuse,18,319063,17726,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,17725.722222222223
+TCU,19,101105,5321,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,5321.315789473684
+Tarleton St.,16,25844,1615,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,1615.25
+Temple,16,45966,2873,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,2872.875
+Tennessee,17,327265,19251,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,19250.882352941175
+Tennessee St.,12,6514,543,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,542.8333333333334
+Tennessee Tech,14,13727,981,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,980.5
+Texas,17,184193,10835,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,10834.882352941177
+Texas A&M,18,148094,8227,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,8227.444444444445
+Texas Southern,14,17153,1225,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,1225.2142857142858
+Texas St.,17,30036,1767,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,1766.8235294117646
+Texas Tech,16,211741,13234,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,13233.8125
+The Citadel,15,19919,1328,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,1327.9333333333334
+Toledo,15,66711,4447,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,4447.4
+Towson,14,34253,2447,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,2446.6428571428573
+Troy,13,37932,2918,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,2917.846153846154
+Tulane,18,23581,1310,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,1310.0555555555557
+Tulsa,18,59167,3287,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,3287.0555555555557
+UAB,17,62216,3660,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,3659.764705882353
+UAlbany,11,21889,1990,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,1989.909090909091
+UC Davis,16,22718,1420,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,1419.875
+UC Irvine,17,37612,2212,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,2212.470588235294
+UC Riverside,14,5461,390,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,390.07142857142856
+UC San Diego,15,37516,2501,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,2501.0666666666666
+UC Santa Barbara,15,39793,2653,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,2652.866666666667
+UCF,18,122939,6830,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,6829.944444444444
+UCLA,18,126654,7036,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,7036.333333333333
+UConn,17,216211,12718,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,12718.29411764706
+UIC,14,22697,1621,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,1621.2142857142858
+UIW,15,3246,216,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,216.4
+ULM,14,22676,1620,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,1619.7142857142858
+UMBC,17,24855,1462,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,1462.0588235294117
+UMES,10,13839,1384,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,1383.9
+UMass Lowell,14,8954,640,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,639.5714285714286
+UNC Asheville,16,15895,993,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,993.4375
+UNC Greensboro,14,14036,1003,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,1002.5714285714286
+UNCW,19,96466,5077,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,5077.1578947368425
+UNI,17,64252,3780,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,3779.529411764706
+UNLV,16,87490,5468,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,5468.125
+USC Upstate,15,5540,369,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,369.3333333333333
+UT Arlington,13,17731,1364,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,1363.923076923077
+UT Martin,15,23546,1570,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,1569.7333333333333
+UTEP,16,63095,3943,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,3943.4375
+UTRGV,15,19297,1286,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,1286.4666666666667
+UTSA,14,12624,902,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,901.7142857142857
+Utah,17,122558,7209,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,7209.294117647059
+Utah St.,15,145226,9682,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,9681.733333333334
+Utah Tech,14,28219,2016,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,2015.642857142857
+Utah Valley,16,30535,1908,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,1908.4375
+VCU,17,129434,7614,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,7613.764705882353
+VMI,14,25809,1844,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,1843.5
+Valparaiso,17,24487,1440,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,1440.4117647058824
+Vanderbilt,16,148475,9280,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,9279.6875
+Vermont,16,33829,2114,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,2114.3125
+Villanova,16,126174,7886,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,7885.875
+Virginia,17,219044,12885,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,12884.941176470587
+Virginia Tech,17,108231,6367,Men,2026,Division I,ncaa_mens_attendance.pdf,6,2,6366.529411764706
+Wagner,13,7882,606,Men,2026,Division I,ncaa_mens_attendance.pdf,7,1,606.3076923076923
+Wake Forest,20,135520,6776,Men,2026,Division I,ncaa_mens_attendance.pdf,7,1,6776.0
+Washington,16,114587,7162,Men,2026,Division I,ncaa_mens_attendance.pdf,7,1,7161.6875
+Washington St.,15,49975,3332,Men,2026,Division I,ncaa_mens_attendance.pdf,7,1,3331.6666666666665
+Weber St.,16,41899,2619,Men,2026,Division I,ncaa_mens_attendance.pdf,7,1,2618.6875
+West Virginia,18,199438,11080,Men,2026,Division I,ncaa_mens_attendance.pdf,7,1,11079.888888888889
+Western Caro.,13,23058,1774,Men,2026,Division I,ncaa_mens_attendance.pdf,7,1,1773.6923076923076
+Western Ill.,15,8343,556,Men,2026,Division I,ncaa_mens_attendance.pdf,7,1,556.2
+Western Ky.,16,54011,3376,Men,2026,Division I,ncaa_mens_attendance.pdf,7,1,3375.6875
+Western Mich.,15,24775,1652,Men,2026,Division I,ncaa_mens_attendance.pdf,7,1,1651.6666666666667
+Wichita St.,18,106059,5892,Men,2026,Division I,ncaa_mens_attendance.pdf,7,1,5892.166666666667
+William & Mary,13,48393,3723,Men,2026,Division I,ncaa_mens_attendance.pdf,7,1,3722.5384615384614
+Winthrop,14,22006,1572,Men,2026,Division I,ncaa_mens_attendance.pdf,7,1,1571.857142857143
+Wisconsin,17,258908,15230,Men,2026,Division I,ncaa_mens_attendance.pdf,7,1,15229.882352941177
+Wofford,15,21982,1465,Men,2026,Division I,ncaa_mens_attendance.pdf,7,1,1465.4666666666667
+Wright St.,16,56985,3562,Men,2026,Division I,ncaa_mens_attendance.pdf,7,1,3561.5625
+Wyoming,18,67483,3749,Men,2026,Division I,ncaa_mens_attendance.pdf,7,1,3749.0555555555557
+Xavier,18,174266,9681,Men,2026,Division I,ncaa_mens_attendance.pdf,7,1,9681.444444444445
+Yale,13,16760,1289,Men,2026,Division I,ncaa_mens_attendance.pdf,7,1,1289.2307692307693
+Youngstown St.,15,30522,2035,Men,2026,Division I,ncaa_mens_attendance.pdf,7,1,2034.8
+A&M-Corpus Christi,14,15292,1092,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,1092.2857142857142
+Abilene Christian,17,15337,902,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,902.1764705882352
+Air Force,14,10541,753,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,752.9285714285714
+Akron,15,12477,832,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,831.8
+Alabama,20,59006,2950,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,2950.3
+Alabama A&M,14,29816,2130,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,2129.714285714286
+Alabama St.,12,6969,581,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,580.75
+Alcorn,14,6739,481,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,481.35714285714283
+American,14,5762,412,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,411.57142857142856
+App State,15,8273,552,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,551.5333333333333
+Arizona,20,117719,5886,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,5885.95
+Arizona St.,17,61695,3629,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,3629.1176470588234
+Ark.-Pine Bluff,11,12558,1142,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,1141.6363636363637
+Arkansas,18,55473,3082,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,3081.8333333333335
+Arkansas St.,18,36370,2021,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,2020.5555555555557
+Army West Point,17,15986,940,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,940.3529411764706
+Auburn,16,57011,3563,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,3563.1875
+Austin Peay,15,9806,654,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,653.7333333333333
+BYU,19,50568,2661,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,2661.4736842105262
+Ball St.,14,31423,2245,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,2244.5
+Baylor,17,61299,3606,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,3605.823529411765
+Bellarmine,13,4988,384,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,383.6923076923077
+Belmont,15,18029,1202,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,1201.9333333333334
+Bethune-Cookman,10,3597,360,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,359.7
+Binghamton,15,24399,1627,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,1626.6
+Boise St.,17,35841,2108,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,2108.294117647059
+Boston College,18,18534,1030,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,1029.6666666666667
+Boston U.,15,8649,577,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,576.6
+Bowling Green,15,24518,1635,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,1634.5333333333333
+Bradley,15,20102,1340,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,1340.1333333333334
+Brown,11,3052,277,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,277.45454545454544
+Bryant,14,2702,193,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,193.0
+Bucknell,15,5888,393,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,392.53333333333336
+Buffalo,13,19828,1525,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,1525.2307692307693
+Butler,17,21999,1294,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,1294.0588235294117
+CSU Bakersfield,15,3530,235,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,235.33333333333334
+CSUN,15,4269,285,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,284.6
+Cal Poly,14,5759,411,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,411.35714285714283
+Cal St. Fullerton,16,3784,237,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,236.5
+California,19,36397,1916,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,1915.6315789473683
+California Baptist,15,12049,803,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,803.2666666666667
+Campbell,14,14378,1027,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,1027.0
+Canisius,14,7375,527,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,526.7857142857143
+Central Ark.,12,8072,673,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,672.6666666666666
+Central Conn. St.,13,5484,422,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,421.84615384615387
+Central Mich.,13,18725,1440,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,1440.3846153846155
+Charleston So.,14,4678,334,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,334.14285714285717
+Charlotte,15,12784,852,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,852.2666666666667
+Chattanooga,14,20799,1486,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,1485.642857142857
+Chicago St.,11,2553,232,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,232.0909090909091
+Cincinnati,16,31944,1997,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,1996.5
+Clemson,13,19824,1525,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,1524.923076923077
+Cleveland,19,10155,534,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,534.4736842105264
+Coastal Carolina,16,11571,723,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,723.1875
+Col. of Charleston,12,9371,781,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,780.9166666666666
+Colgate,13,4640,357,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,356.9230769230769
+Colorado,17,43261,2545,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,2544.764705882353
+Colorado St.,16,42268,2642,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,2641.75
+Columbia,13,18625,1433,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,1432.6923076923076
+Coppin St.,12,8972,748,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,747.6666666666666
+Cornell,12,3118,260,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,259.8333333333333
+Creighton,14,21952,1568,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,1568.0
+Dartmouth,13,10955,843,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,842.6923076923077
+Davidson,16,17014,1063,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,1063.375
+Dayton,14,39951,2854,Women,2026,Division I,ncaa_womens_attendance.pdf,6,1,2853.6428571428573
+DePaul,17,37576,2210,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,2210.3529411764707
+Delaware,14,18051,1289,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,1289.357142857143
+Delaware St.,13,3295,253,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,253.46153846153845
+Denver,15,7162,477,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,477.46666666666664
+Detroit Mercy,15,6146,410,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,409.73333333333335
+Drake,15,40955,2730,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,2730.3333333333335
+Drexel,14,7569,541,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,540.6428571428571
+Duke,15,55964,3731,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,3730.9333333333334
+Duquesne,14,15162,1083,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,1083.0
+ETSU,14,5561,397,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,397.2142857142857
+East Carolina,17,24473,1440,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,1439.5882352941176
+East Texas A&M,15,5628,375,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,375.2
+Eastern Ill.,12,7990,666,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,665.8333333333334
+Eastern Ky.,18,7132,396,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,396.22222222222223
+Eastern Mich.,13,16451,1265,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,1265.4615384615386
+Eastern Wash.,14,10724,766,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,766.0
+Elon,14,12110,865,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,865.0
+Evansville,13,5054,389,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,388.7692307692308
+FDU,19,7073,372,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,372.2631578947368
+FGCU,16,24700,1544,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,1543.75
+FIU,17,3404,200,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,200.23529411764707
+Fairfield,13,16676,1283,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,1282.7692307692307
+Fla. Atlantic,15,10531,702,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,702.0666666666667
+Florida,18,34116,1895,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,1895.3333333333333
+Florida A&M,13,9290,715,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,714.6153846153846
+Florida St.,17,27237,1602,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,1602.1764705882354
+Fordham,16,6295,393,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,393.4375
+Fresno St.,14,18774,1341,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,1341.0
+Furman,16,7820,489,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,488.75
+Ga. Southern,15,22722,1515,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,1514.8
+Gardner-Webb,13,5157,397,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,396.6923076923077
+George Mason,16,20909,1307,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,1306.8125
+George Washington,18,11238,624,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,624.3333333333334
+Georgetown,16,11741,734,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,733.8125
+Georgia,16,47153,2947,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,2947.0625
+Georgia St.,15,20041,1336,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,1336.0666666666666
+Georgia Tech,16,41119,2570,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,2569.9375
+Gonzaga,15,76682,5112,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,5112.133333333333
+Grambling,14,7114,508,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,508.14285714285717
+Grand Canyon,14,11852,847,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,846.5714285714286
+Green Bay,15,31198,2080,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,2079.866666666667
+Hampton,12,6245,520,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,520.4166666666666
+Harvard,14,11591,828,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,827.9285714285714
+Hawaii,18,36074,2004,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,2004.111111111111
+High Point,16,16366,1023,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,1022.875
+Hofstra,13,5000,385,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,384.61538461538464
+Holy Cross,17,14513,854,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,853.7058823529412
+Houston,15,18616,1241,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,1241.0666666666666
+Houston Christian,13,6512,501,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,500.9230769230769
+Howard,11,10777,980,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,979.7272727272727
+IU Indy,15,6060,404,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,404.0
+Idaho,15,17411,1161,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,1160.7333333333333
+Idaho St.,13,12886,991,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,991.2307692307693
+Illinois,17,98014,5766,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,5765.529411764706
+Illinois St.,18,39399,2189,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,2188.8333333333335
+Indiana,17,133727,7866,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,7866.294117647059
+Indiana St.,13,15338,1180,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,1179.8461538461538
+Iona,15,11257,750,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,750.4666666666667
+Iowa,17,253634,14920,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,14919.64705882353
+Iowa St.,18,179733,9985,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,9985.166666666666
+Jackson St.,13,7108,547,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,546.7692307692307
+Jacksonville,15,3541,236,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,236.06666666666666
+Jacksonville St.,14,9923,709,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,708.7857142857143
+James Madison,17,42226,2484,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,2483.8823529411766
+Kansas,19,66706,3511,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,3510.842105263158
+Kansas City,15,5226,348,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,348.4
+Kansas St.,17,67656,3980,Women,2026,Division I,ncaa_womens_attendance.pdf,6,2,3979.764705882353
+Kennesaw St.,15,8877,592,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,591.8
+Kent St.,13,17757,1366,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,1365.923076923077
+Kentucky,15,68740,4583,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,4582.666666666667
+LIU,14,2078,148,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,148.42857142857142
+LMU (CA),15,4246,283,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,283.06666666666666
+LSU,17,182149,10715,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,10714.64705882353
+LSU New Orleans,14,4896,350,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,349.7142857142857
+La Salle,15,8970,598,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,598.0
+Lafayette,12,6381,532,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,531.75
+Lamar University,14,13656,975,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,975.4285714285714
+Lehigh,15,8960,597,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,597.3333333333334
+Liberty,14,15903,1136,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,1135.9285714285713
+Lindenwood,14,11973,855,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,855.2142857142857
+Lipscomb,14,7356,525,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,525.4285714285714
+Little Rock,15,1907,127,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,127.13333333333334
+Long Beach St.,16,10066,629,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,629.125
+Longwood,15,17396,1160,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,1159.7333333333333
+Louisiana,14,12478,891,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,891.2857142857143
+Louisiana Tech,16,27291,1706,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,1705.6875
+Louisville,21,165698,7890,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,7890.380952380952
+Loyola Chicago,15,10535,702,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,702.3333333333334
+Loyola Maryland,13,4488,345,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,345.2307692307692
+Maine,14,15579,1113,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,1112.7857142857142
+Manhattan,14,5567,398,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,397.64285714285717
+Marist,15,12587,839,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,839.1333333333333
+Marquette,15,26951,1797,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,1796.7333333333333
+Marshall,19,33975,1788,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,1788.157894736842
+Maryland,19,137039,7213,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,7212.578947368421
+Massachusetts,14,21204,1515,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,1514.5714285714287
+McNeese,13,34383,2645,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,2644.846153846154
+Memphis,15,14250,950,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,950.0
+Mercer,13,6493,499,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,499.46153846153845
+Merrimack,15,5183,346,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,345.53333333333336
+Miami (FL),18,17280,960,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,960.0
+Miami (OH),14,13612,972,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,972.2857142857143
+Michigan,17,81125,4772,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,4772.058823529412
+Michigan St.,15,65629,4375,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,4375.266666666666
+Middle Tenn.,16,69462,4341,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,4341.375
+Milwaukee,16,10800,675,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,675.0
+Minnesota,18,86261,4792,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,4792.277777777777
+Mississippi St.,18,71239,3958,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,3957.722222222222
+Mississippi Val.,10,4342,434,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,434.2
+Missouri,17,53397,3141,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,3141.0
+Missouri St.,15,32797,2186,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,2186.4666666666667
+Monmouth,16,10288,643,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,643.0
+Montana,13,29309,2255,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,2254.5384615384614
+Montana St.,15,37444,2496,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,2496.266666666667
+Morehead St.,15,9616,641,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,641.0666666666667
+Morgan St.,11,7119,647,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,647.1818181818181
+Mount St. Mary's,14,11074,791,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,791.0
+Murray St.,14,27560,1969,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,1968.5714285714287
+N.C. A&T,15,15879,1059,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,1058.6
+N.C. Central,14,9598,686,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,685.5714285714286
+NC State,14,71800,5129,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,5128.571428571428
+NIU,13,9760,751,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,750.7692307692307
+NJIT,15,5979,399,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,398.6
+Navy,17,16135,949,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,949.1176470588235
+Nebraska,17,96913,5701,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,5700.764705882353
+Nevada,14,29633,2117,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,2116.6428571428573
+New Hampshire,13,4804,370,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,369.53846153846155
+New Mexico,16,73344,4584,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,4584.0
+New Mexico St.,14,10579,756,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,755.6428571428571
+Niagara,12,5169,431,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,430.75
+Nicholls,14,10077,720,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,719.7857142857143
+Norfolk St.,13,14197,1092,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,1092.076923076923
+North Ala.,14,19796,1414,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,1414.0
+North Carolina,17,53617,3154,Women,2026,Division I,ncaa_womens_attendance.pdf,7,1,3153.9411764705883
+North Dakota,16,24646,1540,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,1540.375
+North Dakota St.,15,25584,1706,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,1705.6
+North Florida,13,10364,797,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,797.2307692307693
+North Texas,17,26244,1544,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,1543.764705882353
+Northeastern,13,3342,257,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,257.0769230769231
+Northern Ariz.,13,3928,302,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,302.15384615384613
+Northern Colo.,15,13018,868,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,867.8666666666667
+Northern Ky.,14,20737,1481,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,1481.2142857142858
+Northwestern,15,25946,1730,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,1729.7333333333333
+Northwestern St.,13,3490,268,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,268.46153846153845
+Notre Dame,16,114204,7138,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,7137.75
+Oakland,12,5429,452,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,452.4166666666667
+Ohio,17,13216,777,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,777.4117647058823
+Ohio St.,19,112645,5929,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,5928.684210526316
+Oklahoma,18,99936,5552,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,5552.0
+Oklahoma St.,17,56256,3309,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,3309.176470588235
+Old Dominion,15,32748,2183,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,2183.2
+Ole Miss,14,50255,3590,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,3589.6428571428573
+Omaha,14,16618,1187,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,1187.0
+Oral Roberts,14,23370,1669,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,1669.2857142857142
+Oregon,17,86116,5066,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,5065.64705882353
+Oregon St.,18,69180,3843,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,3843.3333333333335
+Pacific,18,10978,610,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,609.8888888888889
+Penn,12,6404,534,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,533.6666666666666
+Penn St.,14,25262,1804,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,1804.4285714285713
+Pepperdine,18,6141,341,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,341.1666666666667
+Pittsburgh,18,13540,752,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,752.2222222222222
+Portland,17,14333,843,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,843.1176470588235
+Portland St.,15,6351,423,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,423.4
+Prairie View,12,3832,319,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,319.3333333333333
+Presbyterian,13,3582,276,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,275.53846153846155
+Princeton,12,16350,1363,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,1362.5
+Providence,18,17592,977,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,977.3333333333334
+Purdue,17,87123,5125,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,5124.882352941177
+Purdue Fort Wayne,17,14511,854,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,853.5882352941177
+Queens (NC),14,2825,202,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,201.78571428571428
+Quinnipiac,14,10172,727,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,726.5714285714286
+Radford,16,14691,918,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,918.1875
+Rhode Island,15,25179,1679,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,1678.6
+Rice,16,14492,906,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,905.75
+Richmond,14,27512,1965,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,1965.142857142857
+Rider,13,5412,416,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,416.3076923076923
+Robert Morris,14,7646,546,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,546.1428571428571
+Rutgers,18,46709,2595,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,2594.9444444444443
+SFA,16,15561,973,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,972.5625
+SIUE,16,21112,1320,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,1319.5
+SMU,16,23696,1481,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,1481.0
+Sacramento St.,14,9240,660,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,660.0
+Sacred Heart,14,8919,637,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,637.0714285714286
+Saint Francis,13,5324,410,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,409.53846153846155
+Saint Joseph's,16,19016,1189,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,1188.5
+Saint Louis,16,17325,1083,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,1082.8125
+Saint Mary's (CA),14,5064,362,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,361.7142857142857
+Saint Peter's,14,3916,280,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,279.7142857142857
+Sam Houston,16,7400,463,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,462.5
+Samford,12,5530,461,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,460.8333333333333
+San Diego,16,10793,675,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,674.5625
+San Diego St.,17,36354,2138,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,2138.470588235294
+San Francisco,17,4751,279,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,279.47058823529414
+San Jose St.,14,6061,433,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,432.92857142857144
+Santa Clara,14,7912,565,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,565.1428571428571
+Seattle U,14,5470,391,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,390.7142857142857
+Seton Hall,16,13974,873,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,873.375
+Siena,13,7328,564,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,563.6923076923077
+South Alabama,16,16687,1043,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,1042.9375
+South Carolina,18,276616,15368,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,15367.555555555555
+South Carolina St.,14,2797,200,Women,2026,Division I,ncaa_womens_attendance.pdf,7,2,199.78571428571428
+South Dakota,19,30959,1629,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,1629.421052631579
+South Dakota St.,13,35962,2766,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,2766.3076923076924
+South Fla.,17,60530,3561,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,3560.5882352941176
+Southeast Mo. St.,14,11274,805,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,805.2857142857143
+Southeastern La.,13,6254,481,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,481.0769230769231
+Southern California,16,76000,4750,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,4750.0
+Southern Ill.,14,10151,725,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,725.0714285714286
+Southern Ind.,16,17383,1086,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,1086.4375
+Southern Miss.,15,33545,2236,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,2236.3333333333335
+Southern U.,11,36556,3323,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,3323.2727272727275
+Southern Utah,14,6240,446,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,445.7142857142857
+St. Bonaventure,14,5637,403,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,402.64285714285717
+St. John's (NY),15,19650,1310,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,1310.0
+St. Thomas (MN),18,9151,508,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,508.3888888888889
+Stanford,19,51464,2709,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,2708.6315789473683
+Stetson,13,6954,535,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,534.9230769230769
+Stonehill,14,2673,191,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,190.92857142857142
+Stony Brook,14,8561,612,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,611.5
+Syracuse,18,57553,3197,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,3197.3888888888887
+TCU,20,66895,3345,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,3344.75
+Tarleton St.,14,11851,847,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,846.5
+Temple,14,22616,1615,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,1615.4285714285713
+Tennessee,13,141045,10850,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,10849.615384615385
+Tennessee St.,14,8018,573,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,572.7142857142857
+Tennessee Tech,16,18294,1143,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,1143.375
+Texas,20,185157,9258,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,9257.85
+Texas A&M,14,47843,3417,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,3417.3571428571427
+Texas Southern,13,5168,398,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,397.53846153846155
+Texas St.,15,16628,1109,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,1108.5333333333333
+Texas Tech,17,90870,5345,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,5345.294117647059
+Toledo,15,61417,4094,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,4094.4666666666667
+Towson,15,13223,882,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,881.5333333333333
+Troy,14,21373,1527,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,1526.642857142857
+Tulane,17,15617,919,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,918.6470588235294
+Tulsa,15,21934,1462,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,1462.2666666666667
+UAB,16,5724,358,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,357.75
+UAlbany,14,21727,1552,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,1551.9285714285713
+UC Davis,14,13484,963,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,963.1428571428571
+UC Irvine,15,10013,668,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,667.5333333333333
+UC Riverside,14,2297,164,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,164.07142857142858
+UC San Diego,15,10692,713,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,712.8
+UC Santa Barbara,13,8241,634,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,633.9230769230769
+UCF,17,24632,1449,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,1448.9411764705883
+UCLA,16,87848,5491,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,5490.5
+UConn,17,201021,11825,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,11824.764705882353
+UIC,16,14857,929,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,928.5625
+UIW,14,3282,234,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,234.42857142857142
+ULM,15,16841,1123,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,1122.7333333333333
+UMBC,14,13442,960,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,960.1428571428571
+UMES,13,9735,749,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,748.8461538461538
+UMass Lowell,13,2613,201,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,201.0
+UNC Asheville,16,6452,403,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,403.25
+UNC Greensboro,14,4919,351,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,351.35714285714283
+UNCW,13,13019,1001,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,1001.4615384615385
+UNI,13,35761,2751,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,2750.846153846154
+UNLV,15,13797,920,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,919.8
+USC Upstate,14,3829,274,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,273.5
+UT Arlington,13,8905,685,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,685.0
+UT Martin,14,18908,1351,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,1350.5714285714287
+UTEP,17,17377,1022,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,1022.1764705882352
+UTRGV,15,18811,1254,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,1254.0666666666666
+UTSA,13,11855,912,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,911.9230769230769
+Utah,16,45140,2821,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,2821.25
+Utah St.,14,14678,1048,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,1048.4285714285713
+Utah Tech,17,9684,570,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,569.6470588235294
+Utah Valley,15,10966,731,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,731.0666666666667
+VCU,13,13817,1063,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,1062.8461538461538
+Valparaiso,13,4238,326,Women,2026,Division I,ncaa_womens_attendance.pdf,8,1,326.0
+Vanderbilt,18,74277,4127,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,4126.5
+Vermont,16,19410,1213,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,1213.125
+Villanova,15,23022,1535,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,1534.8
+Virginia,17,70578,4152,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,4151.64705882353
+Virginia Tech,18,77735,4319,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,4318.611111111111
+Wagner,15,5544,370,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,369.6
+Wake Forest,19,27159,1429,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,1429.421052631579
+Washington,17,55035,3237,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,3237.3529411764707
+Washington St.,14,14489,1035,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,1034.9285714285713
+Weber St.,15,7772,518,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,518.1333333333333
+West Virginia,19,93681,4931,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,4930.578947368421
+Western Caro.,14,10964,783,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,783.1428571428571
+Western Ill.,16,17071,1067,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,1066.9375
+Western Ky.,14,13646,975,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,974.7142857142857
+Western Mich.,14,11866,848,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,847.5714285714286
+Wichita St.,17,17486,1029,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,1028.5882352941176
+William & Mary,13,14058,1081,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,1081.3846153846155
+Winthrop,13,3685,283,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,283.46153846153845
+Wisconsin,17,64378,3787,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,3786.9411764705883
+Wofford,13,6999,538,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,538.3846153846154
+Wright St.,14,23494,1678,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,1678.142857142857
+Wyoming,14,32474,2320,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,2319.5714285714284
+Xavier,17,21560,1268,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,1268.235294117647
+Yale,12,4978,415,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,414.8333333333333
+Youngstown St.,17,25080,1475,Women,2026,Division I,ncaa_womens_attendance.pdf,8,2,1475.2941176470588
+Le Moyne,12,3811,318,Women,2026,Reclassifying,ncaa_womens_attendance.pdf,8,2,317.5833333333333
+Mercyhurst,16,5458,341,Women,2026,Reclassifying,ncaa_womens_attendance.pdf,8,2,341.125
+New Haven,16,5128,321,Women,2026,Reclassifying,ncaa_womens_attendance.pdf,8,2,320.5
+West Ga.,15,8369,558,Women,2026,Reclassifying,ncaa_womens_attendance.pdf,8,2,557.9333333333333

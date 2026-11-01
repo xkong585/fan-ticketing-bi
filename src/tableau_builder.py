@@ -8,17 +8,21 @@ def build_tableau(root,kind):
  # Fresh XML: do not retain any author, machine, license, source or data from other workbooks.
  wb=E.Element('workbook',{'original-version':'18.1','source-build':'2026.2.3 (20262.26.0912.1023)','source-platform':'mac','version':'18.1','xmlns:user':'http://www.tableausoftware.com/xml/user'});sources=E.SubElement(wb,'datasources');worksheets=E.SubElement(wb,'worksheets');dashboards=E.SubElement(wb,'dashboards');windows=E.SubElement(wb,'windows')
  if kind=='fan':
-  a=pd.read_csv(root/'evidence/monthly_kpis.csv');a['net_revenue_USD']=a.net_revenue_cents/100
-  b=pd.read_csv(root/'evidence/segment_validation.csv');b['repeat_rate_percent']=b.repeat_rate*100
-  specs=[('monthly',a,[('Monthly Net Revenue','month','net_revenue_USD'),('Tickets by Brand','brand','net_tickets')]),('segments',b,[('Fans by Segment','segment','fans'),('Next 90 Day Repeat Rate','segment','repeat_rate_percent')])];dash_name='Synthetic Fan and Ticketing BI'
+  a=pd.read_csv(root/'evidence/school_attendance.csv');a=a[a.cohort.eq('Division I')]
+  totals=a.groupby('sex',as_index=False).attendance.sum()
+  men=a[a.sex.eq('Men')].nlargest(10,'computed_average')[['school','computed_average']]
+  women=a[a.sex.eq('Women')].nlargest(10,'computed_average')[['school','computed_average']]
+  m=pd.read_csv(root/'evidence/forecast_metrics.csv')
+  specs=[('home',totals,[('DI Home Attendance','sex','attendance')]),('men',men,[('Men Top 10 Home Averages','school','computed_average')]),('women',women,[('Women Top 10 Home Averages','school','computed_average')]),('forecast',m,[('Forecast MAE Lower Is Better','model','mae_attendees')])];dash_name='Official NCAA Attendance Observatory'
  else:
-  a=pd.read_csv(root/'evidence/sponsor_recap.csv');a['fulfillment_percent']=100*a.delivered_units/a.planned_units
-  b=pd.read_csv(root/'evidence/survey_groups.csv');b['response_rate_percent']=100*b.response_rate
-  c=pd.read_csv(root/'evidence/experiment_arms.csv');c['recall_percent']=100*c.recall_rate
-  specs=[('recap',a,[('Sponsor Delivered Inventory','sponsor','delivered_units'),('Contracted Inventory by Brand','brand','planned_units')]),('survey',b,[('NPS by Membership','group','nps')]),('experiment',c,[('Randomized Recall Experiment','arm','recall_percent')])];dash_name='Synthetic Survey and Sponsorship BI'
+  a=pd.read_csv(root/'evidence/survey_subgroups.csv');a=a[a.dimension.eq('age_group')][['group','estimate']];a['attendance_percent']=a.estimate*100
+  b=pd.read_csv(root/'evidence/sponsor_financials.csv');b['year']=b.year.astype(str);b['revenue_USD_million']=b.revenue_usd_thousands/1000
+  c=pd.read_csv(root/'evidence/ml_test_metrics.csv')
+  d=pd.read_csv(root/'evidence/partition_counts.csv')
+  specs=[('survey',a,[('SPPA Attendance Percent by Age','group','attendance_percent')]),('company',b,[('Separate Sponsorship Revenue','year','revenue_USD_million')]),('models',c,[('Heldout Weighted Average Precision','model','weighted_ap')]),('partitions',d,[('Household Heldout Partitions','partition','respondents')])];dash_name='Official Sports Audience and Sponsorship'
  chart_names=[];payload={}
  for ds_name,df,charts in specs:
-  csv_name=ds_name+'.csv';payload['Data/'+csv_name]=df.to_csv(index=False).encode();ds=E.SubElement(sources,'datasource',{'caption':ds_name+' - SYNTHETIC','inline':'true','name':ds_name,'version':'18.1'})
+  csv_name=ds_name+'.csv';payload['Data/'+csv_name]=df.to_csv(index=False).encode();ds=E.SubElement(sources,'datasource',{'caption':ds_name+' - OFFICIAL DATA','inline':'true','name':ds_name,'version':'18.1'})
   conn=E.SubElement(ds,'connection',{'class':'textscan','directory':'Data','filename':csv_name,'password':'','server':''});relation=E.SubElement(conn,'relation',{'name':csv_name,'table':'['+ds_name+'#csv]','type':'table'});cols=E.SubElement(relation,'columns',{'header':'yes','separator':',','character-set':'UTF-8','locale':'en_US'})
   meta=E.SubElement(conn,'metadata-records')
   for i,col in enumerate(df):
@@ -28,8 +32,8 @@ def build_tableau(root,kind):
    for tag,value in [('remote-name',col),('remote-type','5' if numeric else '129'),('local-name','['+col+']'),('parent-name','['+csv_name+']'),('remote-alias',col),('ordinal',str(i)),('local-type',typ),('aggregation','Sum' if numeric else 'Count'),('contains-null','true')]:E.SubElement(record,tag).text=value
    E.SubElement(ds,'column',{'datatype':typ,'name':'['+col+']','role':role,'type':'quantitative' if numeric else 'nominal'})
   for title,dimension,measure in charts:
-   chart_names.append(title);ws=E.SubElement(worksheets,'worksheet',{'name':title});layout=E.SubElement(ws,'layout-options');ttl=E.SubElement(layout,'title');ft=E.SubElement(ttl,'formatted-text');E.SubElement(ft,'run',{'bold':'true','fontsize':'12'}).text=title+' | SYNTHETIC'
-   table=E.SubElement(ws,'table');view=E.SubElement(table,'view');refs=E.SubElement(view,'datasources');E.SubElement(refs,'datasource',{'caption':ds_name+' - SYNTHETIC','name':ds_name});dep=E.SubElement(view,'datasource-dependencies',{'datasource':ds_name})
+   chart_names.append(title);ws=E.SubElement(worksheets,'worksheet',{'name':title});layout=E.SubElement(ws,'layout-options');ttl=E.SubElement(layout,'title');ft=E.SubElement(ttl,'formatted-text');E.SubElement(ft,'run',{'bold':'true','fontsize':'12'}).text=title+' | OFFICIAL SOURCE'
+   table=E.SubElement(ws,'table');view=E.SubElement(table,'view');refs=E.SubElement(view,'datasources');E.SubElement(refs,'datasource',{'caption':ds_name+' - OFFICIAL DATA','name':ds_name});dep=E.SubElement(view,'datasource-dependencies',{'datasource':ds_name})
    E.SubElement(dep,'column',{'datatype':'string','name':'['+dimension+']','role':'dimension','type':'nominal'});E.SubElement(dep,'column',{'datatype':'real','name':'['+measure+']','role':'measure','type':'quantitative'})
    E.SubElement(dep,'column-instance',{'column':'['+dimension+']','derivation':'None','name':'[none:'+dimension+':nk]','pivot':'key','type':'nominal'});E.SubElement(dep,'column-instance',{'column':'['+measure+']','derivation':'Sum','name':'[sum:'+measure+':qk]','pivot':'key','type':'quantitative'})
    E.SubElement(view,'aggregation',{'value':'true'});E.SubElement(table,'style');panes=E.SubElement(table,'panes');pane=E.SubElement(panes,'pane',{'selection-relaxation-option':'selection-relaxation-allow'});pv=E.SubElement(pane,'view');E.SubElement(pv,'breakdown',{'value':'auto'});E.SubElement(pane,'mark',{'class':'Bar'});E.SubElement(pane,'encodings')
@@ -56,5 +60,5 @@ def build_tableau(root,kind):
  with zipfile.ZipFile(root/f'tableau/{name}.twbx','w',zipfile.ZIP_DEFLATED) as z:
   z.writestr(name+'.twb',xml)
   for file,data in payload.items():z.writestr(file,data)
- (root/'tableau/README.md').write_text('# Tableau aggregate views\n\nOpen the packaged .twbx in Tableau Desktop. All data are synthetic aggregates; the CSVs are embedded. No credentials, external database, workbook fingerprint or real fan records are included. Numerical fields are additive counts/amounts unless explicitly labelled as rates. Do not sum per-group rates to form an overall rate; use the numerator and denominator exports in evidence. The separate HTML report provides brand/month/sponsor filtering and validated ratio calculations.\n')
+ (root/'tableau/README.md').write_text('# Tableau aggregate views\n\nOpen the packaged .twbx in Tableau Desktop. CSVs are embedded and contain official-source aggregates only, without Census participant records or credentials. The two audiences in the survey/sponsorship workbook are unrelated datasets, not linked customers. NCAA school/home and historical/all-games scopes remain distinct. Rates are one precomputed estimate per category; do not sum rates or average subgroup means to estimate an overall population. The HTML report contains full uncertainty, filters, model comparisons and limitations. Native rendering verification is recorded separately in evidence/presentation_qa.json.\n')
  return name+'.twbx'

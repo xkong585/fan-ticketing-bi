@@ -1,0 +1,30 @@
+{
+  "browser": "Chrome desktop; 390px mobile layout checked",
+  "status": "passed",
+  "desktop_screenshot": "assets/dashboard-preview.png",
+  "tableau_native_rendering": {
+    "status": "not_verified",
+    "reason": "Tableau Desktop becomes unresponsive after opening the packaged workbook. ZIP/XML/datasource integrity checks pass; do not claim native rendering was verified."
+  },
+  "checks": [
+    {
+      "action": "Filter Women + UCLA",
+      "expected": {
+        "records": 1,
+        "attendance": 87848,
+        "games": 16,
+        "average_rounded": 5491
+      },
+      "passed": true
+    },
+    {
+      "action": "Reset filters",
+      "expected": {
+        "records": 720,
+        "attendance": 33001062,
+        "games": 10917
+      },
+      "passed": true
+    }
+  ]
+}
