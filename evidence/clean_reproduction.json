@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "method": "Fresh source copy with raw/processed participant data, evidence, reports and Tableau packages removed; full run_all.sh rebuild.",
+  "exact_deterministic_outputs": [
+    {
+      "file": "evidence/summary.json",
+      "sha256": "a6a5f9c0210a8928b7383fe1d8f73b61fa7f7af54e58ce251e1063b1942db2ad",
+      "identical": true
+    },
+    {
+      "file": "evidence/checks.json",
+      "sha256": "06422b6f5a5ec81ab48ba5116b5c1dcfe5866aba6086fdf86b0905ab5f70f5d7",
+      "identical": true
+    },
+    {
+      "file": "evidence/segment_validation.csv",
+      "sha256": "7f94ed15e5d7e43799381dbddc79de7c7779856639dea59d11f1b57f06e795e9",
+      "identical": true
+    },
+    {
+      "file": "evidence/monthly_kpis.csv",
+      "sha256": "56017ba7f0b6451dc37f97faa37af290ca9d236325bec7db22e01e622e8dfc15",
+      "identical": true
+    },
+    {
+      "file": "evidence/cohort_retention.csv",
+      "sha256": "a05bcdc615bf7c32f0b3ac6aa863516f4c8fc31a1293f0f8576e4cdf2709bf2f",
+      "identical": true
+    },
+    {
+      "file": "evidence/product_segments.csv",
+      "sha256": "193222600a48a6bb42c3fbd924bdf45eeae71ccc995399115e19aceb6e0dd090",
+      "identical": true
+    }
+  ],
+  "excluded": "Timings, run logs, test XML and ZIP timestamps are host/run dependent; performance correctness assertions still ran."
+}

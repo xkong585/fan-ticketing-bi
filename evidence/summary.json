@@ -1,0 +1,1153 @@
+{
+  "synthetic": true,
+  "seed": 20261101,
+  "fans": 20000,
+  "events": 120,
+  "accepted_orders": 119998,
+  "net_revenue_cents": 2086139275,
+  "net_tickets": 286956,
+  "attended_tickets": 240720,
+  "audit": {
+    "raw_rows": 120016,
+    "exact_duplicates_removed": 5,
+    "conflicting_keys": 2,
+    "quarantined_rows": 13,
+    "accepted_orders": 119998,
+    "quarantine_by_reason": {
+      "conflicting_order_key": 4,
+      "bad_quantity": 4,
+      "orphan": 3,
+      "bad_timestamp": 2
+    }
+  },
+  "as_of": "2026-01-01",
+  "followup_end_exclusive": "2026-04-01",
+  "segments": [
+    {
+      "segment": "At risk",
+      "fans": 3270,
+      "repeat_90d": 1533,
+      "repeat_rate": 0.4688073394495413,
+      "ci_low": 0.45174994819963504,
+      "ci_high": 0.48593793236331534,
+      "baseline_net_revenue_cents": 101025075,
+      "opted_in_fans": 2332
+    },
+    {
+      "segment": "Champions",
+      "fans": 5548,
+      "repeat_90d": 4973,
+      "repeat_rate": 0.8963590483056958,
+      "ci_low": 0.8880626582172607,
+      "ci_high": 0.9041069367938711,
+      "baseline_net_revenue_cents": 984189150,
+      "opted_in_fans": 3981
+    },
+    {
+      "segment": "New/unconverted",
+      "fans": 6611,
+      "repeat_90d": 1047,
+      "repeat_rate": 0.15837240962032975,
+      "ci_low": 0.1497704833245901,
+      "ci_high": 0.16737112496343393,
+      "baseline_net_revenue_cents": 0,
+      "opted_in_fans": 4790
+    },
+    {
+      "segment": "Occasional",
+      "fans": 2573,
+      "repeat_90d": 1193,
+      "repeat_rate": 0.4636610959968908,
+      "ci_low": 0.44446104825846705,
+      "ci_high": 0.4829694890918667,
+      "baseline_net_revenue_cents": 69950050,
+      "opted_in_fans": 1827
+    },
+    {
+      "segment": "Repeat buyers",
+      "fans": 1998,
+      "repeat_90d": 1413,
+      "repeat_rate": 0.7072072072072072,
+      "ci_low": 0.6868719711359974,
+      "ci_high": 0.7267471975307278,
+      "baseline_net_revenue_cents": 130756750,
+      "opted_in_fans": 1441
+    }
+  ],
+  "checks": [
+    {
+      "check": "monthly_SQL_vs_pandas_exact",
+      "passed": true
+    },
+    {
+      "check": "all_fans_in_RFM",
+      "passed": true
+    },
+    {
+      "check": "segment_count_conservation",
+      "passed": true
+    },
+    {
+      "check": "net_money_conservation",
+      "passed": true
+    },
+    {
+      "check": "capacity_never_exceeded",
+      "passed": true
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2025-04",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 53,
+      "gross_revenue_cents": 1022700,
+      "refund_cents": 33000,
+      "net_revenue_cents": 989700,
+      "net_tickets": 139,
+      "attended_tickets": 120
+    },
+    {
+      "month": "2025-04",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Premium",
+      "orders": 15,
+      "gross_revenue_cents": 288475,
+      "refund_cents": 9900,
+      "net_revenue_cents": 278575,
+      "net_tickets": 40,
+      "attended_tickets": 32
+    },
+    {
+      "month": "2025-04",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Single game",
+      "orders": 144,
+      "gross_revenue_cents": 2673450,
+      "refund_cents": 193400,
+      "net_revenue_cents": 2480050,
+      "net_tickets": 332,
+      "attended_tickets": 273
+    },
+    {
+      "month": "2025-04",
+      "brand": "Metro Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 77,
+      "gross_revenue_cents": 1269350,
+      "refund_cents": 110775,
+      "net_revenue_cents": 1158575,
+      "net_tickets": 158,
+      "attended_tickets": 133
+    },
+    {
+      "month": "2025-04",
+      "brand": "Metro Hoops",
+      "ticket_type": "Premium",
+      "orders": 32,
+      "gross_revenue_cents": 653900,
+      "refund_cents": 36000,
+      "net_revenue_cents": 617900,
+      "net_tickets": 78,
+      "attended_tickets": 60
+    },
+    {
+      "month": "2025-04",
+      "brand": "Metro Hoops",
+      "ticket_type": "Single game",
+      "orders": 227,
+      "gross_revenue_cents": 4494100,
+      "refund_cents": 236800,
+      "net_revenue_cents": 4257300,
+      "net_tickets": 546,
+      "attended_tickets": 453
+    },
+    {
+      "month": "2025-05",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 509,
+      "gross_revenue_cents": 9558275,
+      "refund_cents": 451100,
+      "net_revenue_cents": 9107175,
+      "net_tickets": 1238,
+      "attended_tickets": 1034
+    },
+    {
+      "month": "2025-05",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Premium",
+      "orders": 169,
+      "gross_revenue_cents": 3010850,
+      "refund_cents": 189800,
+      "net_revenue_cents": 2821050,
+      "net_tickets": 402,
+      "attended_tickets": 325
+    },
+    {
+      "month": "2025-05",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Single game",
+      "orders": 1279,
+      "gross_revenue_cents": 22930025,
+      "refund_cents": 1041425,
+      "net_revenue_cents": 21888600,
+      "net_tickets": 3087,
+      "attended_tickets": 2619
+    },
+    {
+      "month": "2025-05",
+      "brand": "Metro Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 475,
+      "gross_revenue_cents": 9190400,
+      "refund_cents": 516350,
+      "net_revenue_cents": 8674050,
+      "net_tickets": 1153,
+      "attended_tickets": 978
+    },
+    {
+      "month": "2025-05",
+      "brand": "Metro Hoops",
+      "ticket_type": "Premium",
+      "orders": 155,
+      "gross_revenue_cents": 2783475,
+      "refund_cents": 134600,
+      "net_revenue_cents": 2648875,
+      "net_tickets": 368,
+      "attended_tickets": 311
+    },
+    {
+      "month": "2025-05",
+      "brand": "Metro Hoops",
+      "ticket_type": "Single game",
+      "orders": 1554,
+      "gross_revenue_cents": 27651675,
+      "refund_cents": 1302400,
+      "net_revenue_cents": 26349275,
+      "net_tickets": 3661,
+      "attended_tickets": 3055
+    },
+    {
+      "month": "2025-06",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 951,
+      "gross_revenue_cents": 18084550,
+      "refund_cents": 570575,
+      "net_revenue_cents": 17513975,
+      "net_tickets": 2355,
+      "attended_tickets": 1966
+    },
+    {
+      "month": "2025-06",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Premium",
+      "orders": 290,
+      "gross_revenue_cents": 5351925,
+      "refund_cents": 154250,
+      "net_revenue_cents": 5197675,
+      "net_tickets": 695,
+      "attended_tickets": 585
+    },
+    {
+      "month": "2025-06",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Single game",
+      "orders": 2552,
+      "gross_revenue_cents": 46533875,
+      "refund_cents": 2102250,
+      "net_revenue_cents": 44431625,
+      "net_tickets": 6108,
+      "attended_tickets": 5129
+    },
+    {
+      "month": "2025-06",
+      "brand": "Metro Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 994,
+      "gross_revenue_cents": 17622700,
+      "refund_cents": 903250,
+      "net_revenue_cents": 16719450,
+      "net_tickets": 2349,
+      "attended_tickets": 1986
+    },
+    {
+      "month": "2025-06",
+      "brand": "Metro Hoops",
+      "ticket_type": "Premium",
+      "orders": 305,
+      "gross_revenue_cents": 5677850,
+      "refund_cents": 258350,
+      "net_revenue_cents": 5419500,
+      "net_tickets": 729,
+      "attended_tickets": 605
+    },
+    {
+      "month": "2025-06",
+      "brand": "Metro Hoops",
+      "ticket_type": "Single game",
+      "orders": 2705,
+      "gross_revenue_cents": 50030300,
+      "refund_cents": 2045800,
+      "net_revenue_cents": 47984500,
+      "net_tickets": 6513,
+      "attended_tickets": 5442
+    },
+    {
+      "month": "2025-07",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 1343,
+      "gross_revenue_cents": 23956775,
+      "refund_cents": 721275,
+      "net_revenue_cents": 23235500,
+      "net_tickets": 3254,
+      "attended_tickets": 2741
+    },
+    {
+      "month": "2025-07",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Premium",
+      "orders": 365,
+      "gross_revenue_cents": 6511075,
+      "refund_cents": 236525,
+      "net_revenue_cents": 6274550,
+      "net_tickets": 904,
+      "attended_tickets": 755
+    },
+    {
+      "month": "2025-07",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Single game",
+      "orders": 3591,
+      "gross_revenue_cents": 66718600,
+      "refund_cents": 3101475,
+      "net_revenue_cents": 63617125,
+      "net_tickets": 8718,
+      "attended_tickets": 7301
+    },
+    {
+      "month": "2025-07",
+      "brand": "Metro Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 1326,
+      "gross_revenue_cents": 23921850,
+      "refund_cents": 1441175,
+      "net_revenue_cents": 22480675,
+      "net_tickets": 3063,
+      "attended_tickets": 2576
+    },
+    {
+      "month": "2025-07",
+      "brand": "Metro Hoops",
+      "ticket_type": "Premium",
+      "orders": 351,
+      "gross_revenue_cents": 6129025,
+      "refund_cents": 201000,
+      "net_revenue_cents": 5928025,
+      "net_tickets": 798,
+      "attended_tickets": 671
+    },
+    {
+      "month": "2025-07",
+      "brand": "Metro Hoops",
+      "ticket_type": "Single game",
+      "orders": 3438,
+      "gross_revenue_cents": 63047250,
+      "refund_cents": 2668300,
+      "net_revenue_cents": 60378950,
+      "net_tickets": 8323,
+      "attended_tickets": 6993
+    },
+    {
+      "month": "2025-08",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 1280,
+      "gross_revenue_cents": 23036950,
+      "refund_cents": 985275,
+      "net_revenue_cents": 22051675,
+      "net_tickets": 3036,
+      "attended_tickets": 2537
+    },
+    {
+      "month": "2025-08",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Premium",
+      "orders": 344,
+      "gross_revenue_cents": 6424200,
+      "refund_cents": 323150,
+      "net_revenue_cents": 6101050,
+      "net_tickets": 819,
+      "attended_tickets": 689
+    },
+    {
+      "month": "2025-08",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Single game",
+      "orders": 3505,
+      "gross_revenue_cents": 62303600,
+      "refund_cents": 2948975,
+      "net_revenue_cents": 59354625,
+      "net_tickets": 8352,
+      "attended_tickets": 7005
+    },
+    {
+      "month": "2025-08",
+      "brand": "Metro Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 1311,
+      "gross_revenue_cents": 23829825,
+      "refund_cents": 1317650,
+      "net_revenue_cents": 22512175,
+      "net_tickets": 3093,
+      "attended_tickets": 2637
+    },
+    {
+      "month": "2025-08",
+      "brand": "Metro Hoops",
+      "ticket_type": "Premium",
+      "orders": 326,
+      "gross_revenue_cents": 6092150,
+      "refund_cents": 254825,
+      "net_revenue_cents": 5837325,
+      "net_tickets": 768,
+      "attended_tickets": 640
+    },
+    {
+      "month": "2025-08",
+      "brand": "Metro Hoops",
+      "ticket_type": "Single game",
+      "orders": 3530,
+      "gross_revenue_cents": 63626175,
+      "refund_cents": 2557225,
+      "net_revenue_cents": 61068950,
+      "net_tickets": 8369,
+      "attended_tickets": 7035
+    },
+    {
+      "month": "2025-09",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 1267,
+      "gross_revenue_cents": 23501175,
+      "refund_cents": 1066075,
+      "net_revenue_cents": 22435100,
+      "net_tickets": 3026,
+      "attended_tickets": 2516
+    },
+    {
+      "month": "2025-09",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Premium",
+      "orders": 345,
+      "gross_revenue_cents": 6090775,
+      "refund_cents": 178500,
+      "net_revenue_cents": 5912275,
+      "net_tickets": 849,
+      "attended_tickets": 708
+    },
+    {
+      "month": "2025-09",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Single game",
+      "orders": 3408,
+      "gross_revenue_cents": 61239300,
+      "refund_cents": 2979350,
+      "net_revenue_cents": 58259950,
+      "net_tickets": 8098,
+      "attended_tickets": 6830
+    },
+    {
+      "month": "2025-09",
+      "brand": "Metro Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 1281,
+      "gross_revenue_cents": 23755400,
+      "refund_cents": 1094800,
+      "net_revenue_cents": 22660600,
+      "net_tickets": 3045,
+      "attended_tickets": 2552
+    },
+    {
+      "month": "2025-09",
+      "brand": "Metro Hoops",
+      "ticket_type": "Premium",
+      "orders": 345,
+      "gross_revenue_cents": 5847875,
+      "refund_cents": 357375,
+      "net_revenue_cents": 5490500,
+      "net_tickets": 805,
+      "attended_tickets": 672
+    },
+    {
+      "month": "2025-09",
+      "brand": "Metro Hoops",
+      "ticket_type": "Single game",
+      "orders": 3438,
+      "gross_revenue_cents": 62681450,
+      "refund_cents": 3040350,
+      "net_revenue_cents": 59641100,
+      "net_tickets": 8198,
+      "attended_tickets": 6840
+    },
+    {
+      "month": "2025-10",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 1316,
+      "gross_revenue_cents": 23977350,
+      "refund_cents": 1047975,
+      "net_revenue_cents": 22929375,
+      "net_tickets": 3165,
+      "attended_tickets": 2646
+    },
+    {
+      "month": "2025-10",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Premium",
+      "orders": 337,
+      "gross_revenue_cents": 6262700,
+      "refund_cents": 279075,
+      "net_revenue_cents": 5983625,
+      "net_tickets": 795,
+      "attended_tickets": 666
+    },
+    {
+      "month": "2025-10",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Single game",
+      "orders": 3506,
+      "gross_revenue_cents": 64294700,
+      "refund_cents": 2620475,
+      "net_revenue_cents": 61674225,
+      "net_tickets": 8382,
+      "attended_tickets": 7053
+    },
+    {
+      "month": "2025-10",
+      "brand": "Metro Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 1264,
+      "gross_revenue_cents": 23027200,
+      "refund_cents": 1077375,
+      "net_revenue_cents": 21949825,
+      "net_tickets": 3014,
+      "attended_tickets": 2534
+    },
+    {
+      "month": "2025-10",
+      "brand": "Metro Hoops",
+      "ticket_type": "Premium",
+      "orders": 350,
+      "gross_revenue_cents": 6455125,
+      "refund_cents": 327175,
+      "net_revenue_cents": 6127950,
+      "net_tickets": 850,
+      "attended_tickets": 717
+    },
+    {
+      "month": "2025-10",
+      "brand": "Metro Hoops",
+      "ticket_type": "Single game",
+      "orders": 3552,
+      "gross_revenue_cents": 64210400,
+      "refund_cents": 3217950,
+      "net_revenue_cents": 60992450,
+      "net_tickets": 8445,
+      "attended_tickets": 7038
+    },
+    {
+      "month": "2025-11",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 1296,
+      "gross_revenue_cents": 23760300,
+      "refund_cents": 1018175,
+      "net_revenue_cents": 22742125,
+      "net_tickets": 3162,
+      "attended_tickets": 2633
+    },
+    {
+      "month": "2025-11",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Premium",
+      "orders": 360,
+      "gross_revenue_cents": 7026400,
+      "refund_cents": 400150,
+      "net_revenue_cents": 6626250,
+      "net_tickets": 894,
+      "attended_tickets": 748
+    },
+    {
+      "month": "2025-11",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Single game",
+      "orders": 3373,
+      "gross_revenue_cents": 61359625,
+      "refund_cents": 2244200,
+      "net_revenue_cents": 59115425,
+      "net_tickets": 8181,
+      "attended_tickets": 6889
+    },
+    {
+      "month": "2025-11",
+      "brand": "Metro Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 1213,
+      "gross_revenue_cents": 23046125,
+      "refund_cents": 1005225,
+      "net_revenue_cents": 22040900,
+      "net_tickets": 2974,
+      "attended_tickets": 2540
+    },
+    {
+      "month": "2025-11",
+      "brand": "Metro Hoops",
+      "ticket_type": "Premium",
+      "orders": 312,
+      "gross_revenue_cents": 5720400,
+      "refund_cents": 156800,
+      "net_revenue_cents": 5563600,
+      "net_tickets": 734,
+      "attended_tickets": 609
+    },
+    {
+      "month": "2025-11",
+      "brand": "Metro Hoops",
+      "ticket_type": "Single game",
+      "orders": 3392,
+      "gross_revenue_cents": 61323825,
+      "refund_cents": 2555250,
+      "net_revenue_cents": 58768575,
+      "net_tickets": 8055,
+      "attended_tickets": 6771
+    },
+    {
+      "month": "2025-12",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 1270,
+      "gross_revenue_cents": 22793050,
+      "refund_cents": 1054950,
+      "net_revenue_cents": 21738100,
+      "net_tickets": 3026,
+      "attended_tickets": 2522
+    },
+    {
+      "month": "2025-12",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Premium",
+      "orders": 331,
+      "gross_revenue_cents": 6376825,
+      "refund_cents": 298025,
+      "net_revenue_cents": 6078800,
+      "net_tickets": 830,
+      "attended_tickets": 676
+    },
+    {
+      "month": "2025-12",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Single game",
+      "orders": 3560,
+      "gross_revenue_cents": 63269625,
+      "refund_cents": 2883225,
+      "net_revenue_cents": 60386400,
+      "net_tickets": 8439,
+      "attended_tickets": 7089
+    },
+    {
+      "month": "2025-12",
+      "brand": "Metro Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 1328,
+      "gross_revenue_cents": 24981900,
+      "refund_cents": 1382475,
+      "net_revenue_cents": 23599425,
+      "net_tickets": 3182,
+      "attended_tickets": 2692
+    },
+    {
+      "month": "2025-12",
+      "brand": "Metro Hoops",
+      "ticket_type": "Premium",
+      "orders": 342,
+      "gross_revenue_cents": 6149725,
+      "refund_cents": 297550,
+      "net_revenue_cents": 5852175,
+      "net_tickets": 827,
+      "attended_tickets": 684
+    },
+    {
+      "month": "2025-12",
+      "brand": "Metro Hoops",
+      "ticket_type": "Single game",
+      "orders": 3539,
+      "gross_revenue_cents": 64733725,
+      "refund_cents": 2759925,
+      "net_revenue_cents": 61973800,
+      "net_tickets": 8557,
+      "attended_tickets": 7147
+    },
+    {
+      "month": "2026-01",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 1255,
+      "gross_revenue_cents": 23049700,
+      "refund_cents": 1053050,
+      "net_revenue_cents": 21996650,
+      "net_tickets": 3035,
+      "attended_tickets": 2537
+    },
+    {
+      "month": "2026-01",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Premium",
+      "orders": 323,
+      "gross_revenue_cents": 6017525,
+      "refund_cents": 354175,
+      "net_revenue_cents": 5663350,
+      "net_tickets": 749,
+      "attended_tickets": 635
+    },
+    {
+      "month": "2026-01",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Single game",
+      "orders": 3533,
+      "gross_revenue_cents": 62862050,
+      "refund_cents": 3080250,
+      "net_revenue_cents": 59781800,
+      "net_tickets": 8276,
+      "attended_tickets": 6933
+    },
+    {
+      "month": "2026-01",
+      "brand": "Metro Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 1313,
+      "gross_revenue_cents": 23681650,
+      "refund_cents": 1245725,
+      "net_revenue_cents": 22435925,
+      "net_tickets": 3144,
+      "attended_tickets": 2630
+    },
+    {
+      "month": "2026-01",
+      "brand": "Metro Hoops",
+      "ticket_type": "Premium",
+      "orders": 357,
+      "gross_revenue_cents": 6256275,
+      "refund_cents": 311650,
+      "net_revenue_cents": 5944625,
+      "net_tickets": 845,
+      "attended_tickets": 735
+    },
+    {
+      "month": "2026-01",
+      "brand": "Metro Hoops",
+      "ticket_type": "Single game",
+      "orders": 3564,
+      "gross_revenue_cents": 64956175,
+      "refund_cents": 2945425,
+      "net_revenue_cents": 62010750,
+      "net_tickets": 8567,
+      "attended_tickets": 7147
+    },
+    {
+      "month": "2026-02",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 1158,
+      "gross_revenue_cents": 21093900,
+      "refund_cents": 889925,
+      "net_revenue_cents": 20203975,
+      "net_tickets": 2748,
+      "attended_tickets": 2295
+    },
+    {
+      "month": "2026-02",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Premium",
+      "orders": 315,
+      "gross_revenue_cents": 5598875,
+      "refund_cents": 234050,
+      "net_revenue_cents": 5364825,
+      "net_tickets": 775,
+      "attended_tickets": 642
+    },
+    {
+      "month": "2026-02",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Single game",
+      "orders": 3143,
+      "gross_revenue_cents": 56769225,
+      "refund_cents": 2714300,
+      "net_revenue_cents": 54054925,
+      "net_tickets": 7442,
+      "attended_tickets": 6264
+    },
+    {
+      "month": "2026-02",
+      "brand": "Metro Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 1188,
+      "gross_revenue_cents": 21286350,
+      "refund_cents": 1567000,
+      "net_revenue_cents": 19719350,
+      "net_tickets": 2772,
+      "attended_tickets": 2314
+    },
+    {
+      "month": "2026-02",
+      "brand": "Metro Hoops",
+      "ticket_type": "Premium",
+      "orders": 353,
+      "gross_revenue_cents": 6772250,
+      "refund_cents": 233825,
+      "net_revenue_cents": 6538425,
+      "net_tickets": 856,
+      "attended_tickets": 710
+    },
+    {
+      "month": "2026-02",
+      "brand": "Metro Hoops",
+      "ticket_type": "Single game",
+      "orders": 3214,
+      "gross_revenue_cents": 59656325,
+      "refund_cents": 2848700,
+      "net_revenue_cents": 56807625,
+      "net_tickets": 7801,
+      "attended_tickets": 6519
+    },
+    {
+      "month": "2026-03",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 1303,
+      "gross_revenue_cents": 23794975,
+      "refund_cents": 1123650,
+      "net_revenue_cents": 22671325,
+      "net_tickets": 3153,
+      "attended_tickets": 2636
+    },
+    {
+      "month": "2026-03",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Premium",
+      "orders": 379,
+      "gross_revenue_cents": 7181575,
+      "refund_cents": 354400,
+      "net_revenue_cents": 6827175,
+      "net_tickets": 923,
+      "attended_tickets": 780
+    },
+    {
+      "month": "2026-03",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Single game",
+      "orders": 3617,
+      "gross_revenue_cents": 66700875,
+      "refund_cents": 2756625,
+      "net_revenue_cents": 63944250,
+      "net_tickets": 8736,
+      "attended_tickets": 7364
+    },
+    {
+      "month": "2026-03",
+      "brand": "Metro Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 1248,
+      "gross_revenue_cents": 22722975,
+      "refund_cents": 983425,
+      "net_revenue_cents": 21739550,
+      "net_tickets": 2943,
+      "attended_tickets": 2486
+    },
+    {
+      "month": "2026-03",
+      "brand": "Metro Hoops",
+      "ticket_type": "Premium",
+      "orders": 379,
+      "gross_revenue_cents": 6883525,
+      "refund_cents": 489950,
+      "net_revenue_cents": 6393575,
+      "net_tickets": 863,
+      "attended_tickets": 711
+    },
+    {
+      "month": "2026-03",
+      "brand": "Metro Hoops",
+      "ticket_type": "Single game",
+      "orders": 3491,
+      "gross_revenue_cents": 63352700,
+      "refund_cents": 2991400,
+      "net_revenue_cents": 60361300,
+      "net_tickets": 8424,
+      "attended_tickets": 7038
+    },
+    {
+      "month": "2026-04",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 1181,
+      "gross_revenue_cents": 21576900,
+      "refund_cents": 1013900,
+      "net_revenue_cents": 20563000,
+      "net_tickets": 2829,
+      "attended_tickets": 2409
+    },
+    {
+      "month": "2026-04",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Premium",
+      "orders": 292,
+      "gross_revenue_cents": 5350075,
+      "refund_cents": 135050,
+      "net_revenue_cents": 5215025,
+      "net_tickets": 702,
+      "attended_tickets": 582
+    },
+    {
+      "month": "2026-04",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Single game",
+      "orders": 3069,
+      "gross_revenue_cents": 55610925,
+      "refund_cents": 2548275,
+      "net_revenue_cents": 53062650,
+      "net_tickets": 7350,
+      "attended_tickets": 6155
+    },
+    {
+      "month": "2026-04",
+      "brand": "Metro Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 1042,
+      "gross_revenue_cents": 19543300,
+      "refund_cents": 1021850,
+      "net_revenue_cents": 18521450,
+      "net_tickets": 2514,
+      "attended_tickets": 2109
+    },
+    {
+      "month": "2026-04",
+      "brand": "Metro Hoops",
+      "ticket_type": "Premium",
+      "orders": 314,
+      "gross_revenue_cents": 6090175,
+      "refund_cents": 185900,
+      "net_revenue_cents": 5904275,
+      "net_tickets": 776,
+      "attended_tickets": 658
+    },
+    {
+      "month": "2026-04",
+      "brand": "Metro Hoops",
+      "ticket_type": "Single game",
+      "orders": 2972,
+      "gross_revenue_cents": 53767750,
+      "refund_cents": 2425075,
+      "net_revenue_cents": 51342675,
+      "net_tickets": 7055,
+      "attended_tickets": 5893
+    },
+    {
+      "month": "2026-05",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 726,
+      "gross_revenue_cents": 13700700,
+      "refund_cents": 713625,
+      "net_revenue_cents": 12987075,
+      "net_tickets": 1701,
+      "attended_tickets": 1444
+    },
+    {
+      "month": "2026-05",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Premium",
+      "orders": 211,
+      "gross_revenue_cents": 3447875,
+      "refund_cents": 77175,
+      "net_revenue_cents": 3370700,
+      "net_tickets": 508,
+      "attended_tickets": 433
+    },
+    {
+      "month": "2026-05",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Single game",
+      "orders": 1934,
+      "gross_revenue_cents": 35222000,
+      "refund_cents": 1452225,
+      "net_revenue_cents": 33769775,
+      "net_tickets": 4590,
+      "attended_tickets": 3842
+    },
+    {
+      "month": "2026-05",
+      "brand": "Metro Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 646,
+      "gross_revenue_cents": 11819025,
+      "refund_cents": 354750,
+      "net_revenue_cents": 11464275,
+      "net_tickets": 1594,
+      "attended_tickets": 1350
+    },
+    {
+      "month": "2026-05",
+      "brand": "Metro Hoops",
+      "ticket_type": "Premium",
+      "orders": 166,
+      "gross_revenue_cents": 2801600,
+      "refund_cents": 148875,
+      "net_revenue_cents": 2652725,
+      "net_tickets": 370,
+      "attended_tickets": 313
+    },
+    {
+      "month": "2026-05",
+      "brand": "Metro Hoops",
+      "ticket_type": "Single game",
+      "orders": 1817,
+      "gross_revenue_cents": 33644750,
+      "refund_cents": 1695075,
+      "net_revenue_cents": 31949675,
+      "net_tickets": 4272,
+      "attended_tickets": 3606
+    },
+    {
+      "month": "2026-06",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 215,
+      "gross_revenue_cents": 3922525,
+      "refund_cents": 210775,
+      "net_revenue_cents": 3711750,
+      "net_tickets": 502,
+      "attended_tickets": 419
+    },
+    {
+      "month": "2026-06",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Premium",
+      "orders": 61,
+      "gross_revenue_cents": 1051100,
+      "refund_cents": 172150,
+      "net_revenue_cents": 878950,
+      "net_tickets": 118,
+      "attended_tickets": 98
+    },
+    {
+      "month": "2026-06",
+      "brand": "Lakeside Hoops",
+      "ticket_type": "Single game",
+      "orders": 588,
+      "gross_revenue_cents": 11190250,
+      "refund_cents": 564175,
+      "net_revenue_cents": 10626075,
+      "net_tickets": 1376,
+      "attended_tickets": 1166
+    },
+    {
+      "month": "2026-06",
+      "brand": "Metro Hoops",
+      "ticket_type": "Flex pack",
+      "orders": 185,
+      "gross_revenue_cents": 3294250,
+      "refund_cents": 243300,
+      "net_revenue_cents": 3050950,
+      "net_tickets": 435,
+      "attended_tickets": 387
+    },
+    {
+      "month": "2026-06",
+      "brand": "Metro Hoops",
+      "ticket_type": "Premium",
+      "orders": 52,
+      "gross_revenue_cents": 803650,
+      "refund_cents": 61675,
+      "net_revenue_cents": 741975,
+      "net_tickets": 101,
+      "attended_tickets": 88
+    },
+    {
+      "month": "2026-06",
+      "brand": "Metro Hoops",
+      "ticket_type": "Single game",
+      "orders": 473,
+      "gross_revenue_cents": 8377325,
+      "refund_cents": 431475,
+      "net_revenue_cents": 7945850,
+      "net_tickets": 1130,
+      "attended_tickets": 934
+    }
+  ],
+  "product_segments": [
+    {
+      "brand": "Lakeside Hoops",
+      "segment": "At risk",
+      "fans": 3599,
+      "baseline_net_cents": 103021125
+    },
+    {
+      "brand": "Lakeside Hoops",
+      "segment": "Champions",
+      "fans": 2676,
+      "baseline_net_cents": 350383625
+    },
+    {
+      "brand": "Lakeside Hoops",
+      "segment": "New/unconverted",
+      "fans": 9058,
+      "baseline_net_cents": 0
+    },
+    {
+      "brand": "Lakeside Hoops",
+      "segment": "Occasional",
+      "fans": 2947,
+      "baseline_net_cents": 79208475
+    },
+    {
+      "brand": "Lakeside Hoops",
+      "segment": "Repeat buyers",
+      "fans": 1720,
+      "baseline_net_cents": 106611375
+    },
+    {
+      "brand": "Metro Hoops",
+      "segment": "At risk",
+      "fans": 3613,
+      "baseline_net_cents": 104448375
+    },
+    {
+      "brand": "Metro Hoops",
+      "segment": "Champions",
+      "fans": 2678,
+      "baseline_net_cents": 357094575
+    },
+    {
+      "brand": "Metro Hoops",
+      "segment": "New/unconverted",
+      "fans": 8985,
+      "baseline_net_cents": 0
+    },
+    {
+      "brand": "Metro Hoops",
+      "segment": "Occasional",
+      "fans": 2970,
+      "baseline_net_cents": 78750650
+    },
+    {
+      "brand": "Metro Hoops",
+      "segment": "Repeat buyers",
+      "fans": 1754,
+      "baseline_net_cents": 106402825
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "steps": [],
+  "elapsed_seconds": 11.319927540956996,
+  "environment": {
+    "python": "3.12.14",
+    "platform": "macOS-26.6-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.2.6",
+      "pandas": "2.3.3",
+      "duckdb": "1.4.1",
+      "scipy": "1.15.3",
+      "pytest": "8.4.2"
+    }
+  },
+  "protocol_sha256": "7b4ec919e5e845592bdf7d6e6a1b4ef57ebd627c0211b9d42d430bc741546cf5"
+}

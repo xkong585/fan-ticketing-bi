@@ -1,0 +1,22 @@
+[
+  {
+    "check": "monthly_SQL_vs_pandas_exact",
+    "passed": true
+  },
+  {
+    "check": "all_fans_in_RFM",
+    "passed": true
+  },
+  {
+    "check": "segment_count_conservation",
+    "passed": true
+  },
+  {
+    "check": "net_money_conservation",
+    "passed": true
+  },
+  {
+    "check": "capacity_never_exceeded",
+    "passed": true
+  }
+]

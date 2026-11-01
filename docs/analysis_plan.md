@@ -1,0 +1,11 @@
+# Frozen analysis protocol
+
+This is a synthetic portfolio demonstration with fictional Metro Hoops and Lakeside Hoops brands. There is no affiliation with, access to, or measured business outcome for Pacers Sports & Entertainment or any team. Seed 20261101. Generate 20,000 anonymous synthetic fan IDs, 120 events and 120,000 valid transactions; inject named duplicate, conflict, orphan, quantity and timestamp defects to test the pipeline. Generating defects is a validation exercise, not evidence of real operational problems.
+
+Money is integer cents. Grain is one order for one event and ticket type. Net revenue is gross paid less refunds. Net tickets are purchased quantity less refunded quantity. Attendance cannot exceed net tickets. Refunds are attributed to the original transaction month in this simplified ledger; this is not a general-ledger cash flow statement. Event capacity is distinct from purchased or scanned tickets.
+
+RFM as of 2026-01-01 uses only earlier purchase timestamps and positive net tickets. Include all 20,000 fans, including no-history fans. Freeze segments before looking at next-90-day repeat purchasing (2026-01-01 <= purchase < 2026-04-01). Champions: recency <=60 days, >=4 orders and >=$500 net spend; At risk: recency >90 days; Repeat: >=3 orders; otherwise Occasional; no positive purchases -> New/unconverted. Segments are operational rules, not learned latent types or causal treatment groups. Evaluate repeat rates by segment with Wilson intervals. No policy effect or revenue uplift is claimed.
+
+Publish aggregate month/brand/ticket-type and segment tables, cohort matrices, checks, query plans, seeded data-generation specifications and synthetic-only BI exports. Individual synthetic activation exports remain ignored. Tableau workbooks consume aggregate CSVs packaged with them; no real customer data or credentials exist.
+
+SQL benchmark: same in-memory DuckDB connection, one thread, same results, 3 warmups and 21 interleaved repetitions. Compare repeated fact-table GROUP BY with preaggregated mart queries; report construction time, speedup, p50/p95 and break-even reuse. This demonstrates a materialization tradeoff, not Snowflake performance. No inflated duplicated data or intentional query sleeps.
